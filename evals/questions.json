@@ -1,0 +1,411 @@
+[
+ {
+  "id": "q01",
+  "question": "What share of the DPE issued in France since July 2021 carry an F or G label?",
+  "tool": "dpe_label_distribution",
+  "args": {},
+  "path": "share_fg_pct",
+  "ref": {
+   "op": "share",
+   "num": {
+    "etiquette_dpe_in": "F,G"
+   },
+   "den": {}
+  },
+  "tol": 0.05,
+  "expected": 9.8
+ },
+ {
+  "id": "q02",
+  "question": "How many dwellings in Paris (department 75) have an A label?",
+  "tool": "dpe_label_distribution",
+  "args": {
+   "department": "75"
+  },
+  "path": "labels[label=A].count",
+  "ref": {
+   "op": "total",
+   "params": {
+    "code_departement_ban_eq": "75",
+    "etiquette_dpe_eq": "A"
+   }
+  },
+  "tol": 0.0,
+  "expected": 1065
+ },
+ {
+  "id": "q03",
+  "question": "Among houses built before 1948 in Gironde, what percentage is rated F or G?",
+  "tool": "dpe_label_distribution",
+  "args": {
+   "department": "33",
+   "building_type": "maison",
+   "construction_period": "avant 1948"
+  },
+  "path": "share_fg_pct",
+  "ref": {
+   "op": "share",
+   "num": {
+    "code_departement_ban_eq": "33",
+    "type_batiment_eq": "maison",
+    "periode_construction_eq": "avant 1948",
+    "etiquette_dpe_in": "F,G"
+   },
+   "den": {
+    "code_departement_ban_eq": "33",
+    "type_batiment_eq": "maison",
+    "periode_construction_eq": "avant 1948"
+   }
+  },
+  "tol": 0.05,
+  "expected": 13.7
+ },
+ {
+  "id": "q04",
+  "question": "What is the median primary energy consumption (kWh/m²/year) of dwellings in Lozère?",
+  "tool": "dpe_energy_stats",
+  "args": {
+   "indicator": "primary_energy_kwh_m2",
+   "department": "48"
+  },
+  "path": "median",
+  "ref": {
+   "op": "metric",
+   "metric": "p50",
+   "field": "conso_5_usages_par_m2_ep",
+   "params": {
+    "code_departement_ban_eq": "48"
+   }
+  },
+  "tol": 2.5,
+  "expected": 242.6
+ },
+ {
+  "id": "q05",
+  "question": "What is the median greenhouse-gas emission (kg CO2e/m²/year) of apartments in Paris?",
+  "tool": "dpe_energy_stats",
+  "args": {
+   "indicator": "ghg_kg_m2",
+   "department": "75",
+   "building_type": "appartement"
+  },
+  "path": "median",
+  "ref": {
+   "op": "metric",
+   "metric": "p50",
+   "field": "emission_ges_5_usages_par_m2",
+   "params": {
+    "code_departement_ban_eq": "75",
+    "type_batiment_eq": "appartement"
+   }
+  },
+  "tol": 0.5,
+  "expected": 24.9
+ },
+ {
+  "id": "q06",
+  "question": "What is the 90th percentile of living area (m²) for houses in Bretagne (region 53)?",
+  "tool": "dpe_energy_stats",
+  "args": {
+   "indicator": "living_area_m2",
+   "region": "53",
+   "building_type": "maison"
+  },
+  "path": "p90",
+  "ref": {
+   "op": "metric",
+   "metric": "p90",
+   "field": "surface_habitable_logement",
+   "params": {
+    "code_region_ban_eq": "53",
+    "type_batiment_eq": "maison"
+   }
+  },
+  "tol": 1.5,
+  "expected": 156.4
+ },
+ {
+  "id": "q07",
+  "question": "Which département has the highest share of F-G dwellings (at least 100 DPE)?",
+  "tool": "dpe_rank_territories",
+  "args": {
+   "group_by": "department",
+   "metric": "share_fg",
+   "limit": 3
+  },
+  "path": "ranking.0.code",
+  "ref": {
+   "op": "argrank",
+   "group": "code_departement_ban",
+   "num": {
+    "etiquette_dpe_in": "F,G"
+   },
+   "min": 100,
+   "pool": 1000,
+   "order": "desc"
+  },
+  "tol": 0.0,
+  "expected": "23"
+ },
+ {
+  "id": "q08",
+  "question": "Which département has the lowest share of F-G dwellings (at least 100 DPE)?",
+  "tool": "dpe_rank_territories",
+  "args": {
+   "group_by": "department",
+   "metric": "share_fg",
+   "order": "asc",
+   "limit": 3
+  },
+  "path": "ranking.0.code",
+  "ref": {
+   "op": "argrank",
+   "group": "code_departement_ban",
+   "num": {
+    "etiquette_dpe_in": "F,G"
+   },
+   "min": 100,
+   "pool": 1000,
+   "order": "asc"
+  },
+  "tol": 0.0,
+  "expected": "972"
+ },
+ {
+  "id": "q09",
+  "question": "Which région has the highest share of A-B dwellings?",
+  "tool": "dpe_rank_territories",
+  "args": {
+   "group_by": "region",
+   "metric": "share_ab",
+   "limit": 3
+  },
+  "path": "ranking.0.code",
+  "ref": {
+   "op": "argrank",
+   "group": "code_region_ban",
+   "num": {
+    "etiquette_dpe_in": "A,B"
+   },
+   "min": 100,
+   "pool": 1000,
+   "order": "desc"
+  },
+  "tol": 0.0,
+  "expected": "94"
+ },
+ {
+  "id": "q10",
+  "question": "In Gironde, which of the 200 communes with the most DPE has the highest F-G share (at least 100 DPE)?",
+  "tool": "dpe_rank_territories",
+  "args": {
+   "group_by": "commune",
+   "department": "33",
+   "metric": "share_fg",
+   "limit": 3
+  },
+  "path": "ranking.0.code",
+  "ref": {
+   "op": "argrank",
+   "group": "code_insee_ban",
+   "num": {
+    "etiquette_dpe_in": "F,G"
+   },
+   "min": 100,
+   "pool": 200,
+   "order": "desc",
+   "base": {
+    "code_departement_ban_eq": "33"
+   }
+  },
+  "tol": 0.0,
+  "expected": "33395"
+ },
+ {
+  "id": "q11",
+  "question": "Which région has the highest mean primary energy consumption per m²?",
+  "tool": "dpe_rank_territories",
+  "args": {
+   "group_by": "region",
+   "metric": "mean_primary_energy",
+   "limit": 3
+  },
+  "path": "ranking.0.code",
+  "ref": {
+   "op": "argrank",
+   "group": "code_region_ban",
+   "avg": "conso_5_usages_par_m2_ep",
+   "min": 100,
+   "pool": 1000,
+   "order": "desc"
+  },
+  "tol": 0.0,
+  "expected": "11"
+ },
+ {
+  "id": "q12",
+  "question": "What share of dwellings in Finistère have heating oil as main energy?",
+  "tool": "dpe_heating_energy_mix",
+  "args": {
+   "department": "29"
+  },
+  "path": "main_energy[energy=Fioul domestique].share_pct",
+  "ref": {
+   "op": "share",
+   "num": {
+    "code_departement_ban_eq": "29",
+    "type_energie_n1_eq": "Fioul domestique"
+   },
+   "den": {
+    "code_departement_ban_eq": "29",
+    "type_energie_n1_exists": "true"
+   }
+  },
+  "tol": 0.05,
+  "expected": 9.3
+ },
+ {
+  "id": "q13",
+  "question": "How many DPE were issued in Paris during 2025?",
+  "tool": "dpe_trend",
+  "args": {
+   "department": "75",
+   "dpe_date_from": "2025-01-01",
+   "dpe_date_to": "2025-12-31"
+  },
+  "path": "periods[period=2025].dwellings",
+  "ref": {
+   "op": "total",
+   "params": {
+    "code_departement_ban_eq": "75",
+    "date_etablissement_dpe_gte": "2025-01-01",
+    "date_etablissement_dpe_lte": "2025-12-31"
+   }
+  },
+  "tol": 0.0,
+  "expected": 186471
+ },
+ {
+  "id": "q14",
+  "question": "What share of the DPE issued in France during 2022 are rated F or G?",
+  "tool": "dpe_trend",
+  "args": {
+   "dpe_date_from": "2022-01-01",
+   "dpe_date_to": "2022-12-31"
+  },
+  "path": "periods[period=2022].share_fg_pct",
+  "ref": {
+   "op": "share",
+   "num": {
+    "date_etablissement_dpe_gte": "2022-01-01",
+    "date_etablissement_dpe_lte": "2022-12-31",
+    "etiquette_dpe_in": "F,G"
+   },
+   "den": {
+    "date_etablissement_dpe_gte": "2022-01-01",
+    "date_etablissement_dpe_lte": "2022-12-31"
+   }
+  },
+  "tol": 0.05,
+  "expected": 12.9
+ },
+ {
+  "id": "q15",
+  "question": "What is the INSEE code of Bordeaux?",
+  "tool": "dpe_find_commune",
+  "args": {
+   "name": "Bordeaux",
+   "department": "33"
+  },
+  "path": "matches.0.commune_insee",
+  "ref": {
+   "op": "top_value",
+   "field": "code_insee_ban",
+   "params": {
+    "code_departement_ban_eq": "33",
+    "nom_commune_ban_eq": "Bordeaux"
+   }
+  },
+  "tol": 0,
+  "expected": "33063"
+ },
+ {
+  "id": "q16",
+  "question": "What share of dwellings in climate zone H3 are rated A or B?",
+  "tool": "dpe_label_distribution",
+  "args": {
+   "climate_zone": "H3"
+  },
+  "path": "share_ab_pct",
+  "ref": {
+   "op": "share",
+   "num": {
+    "zone_climatique_eq": "H3",
+    "etiquette_dpe_in": "A,B"
+   },
+   "den": {
+    "zone_climatique_eq": "H3"
+   }
+  },
+  "tol": 0.05,
+  "expected": 17.8
+ },
+ {
+  "id": "q17",
+  "question": "How many DPE exist for apartments built between 1990 and 1999 in Gironde?",
+  "tool": "dpe_label_distribution",
+  "args": {
+   "department": "33",
+   "building_type": "appartement",
+   "construction_year_min": 1990,
+   "construction_year_max": 1999
+  },
+  "path": "dwellings",
+  "ref": {
+   "op": "total",
+   "params": {
+    "code_departement_ban_eq": "33",
+    "type_batiment_eq": "appartement",
+    "annee_construction_gte": "1990",
+    "annee_construction_lte": "1999"
+   }
+  },
+  "tol": 0.0,
+  "expected": 10449
+ },
+ {
+  "id": "q18",
+  "question": "What is the 90th percentile of primary energy (kWh/m²/year) in Seine-Saint-Denis?",
+  "tool": "dpe_energy_stats",
+  "args": {
+   "indicator": "primary_energy_kwh_m2",
+   "department": "93"
+  },
+  "path": "p90",
+  "ref": {
+   "op": "metric",
+   "metric": "p90",
+   "field": "conso_5_usages_par_m2_ep",
+   "params": {
+    "code_departement_ban_eq": "93"
+   }
+  },
+  "tol": 3.5,
+  "expected": 324.7
+ },
+ {
+  "id": "q19",
+  "question": "Give the label distribution for dwellings in Paris built after 2026.",
+  "tool": "dpe_label_distribution",
+  "args": {
+   "department": "75",
+   "construction_year_min": 2027
+  },
+  "path": "__error__",
+  "ref": {
+   "op": "none"
+  },
+  "tol": 0.0,
+  "expect_error": "at least 10"
+ }
+]

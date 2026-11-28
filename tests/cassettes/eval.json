@@ -1,0 +1,10847 @@
+{
+"/data-fair/api/v1/datasets/dpe03existant/lines?annee_construction_gte=1990&annee_construction_lte=1999&code_departement_ban_eq=33&size=0&type_batiment_eq=appartement": {
+"status": 200,
+"json": {
+"total": 10449,
+"results": []
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/lines?code_departement_ban_eq=29&size=0&type_energie_n1_eq=Fioul domestique": {
+"status": 200,
+"json": {
+"total": 17152,
+"results": []
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/lines?code_departement_ban_eq=29&size=0&type_energie_n1_exists=true": {
+"status": 200,
+"json": {
+"total": 184185,
+"results": []
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/lines?code_departement_ban_eq=33&etiquette_dpe_in=F,G&periode_construction_eq=avant 1948&size=0&type_batiment_eq=maison": {
+"status": 200,
+"json": {
+"total": 6193,
+"results": []
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/lines?code_departement_ban_eq=33&periode_construction_eq=avant 1948&size=0&type_batiment_eq=maison": {
+"status": 200,
+"json": {
+"total": 45124,
+"results": []
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/lines?code_departement_ban_eq=75&date_etablissement_dpe_gte=2025-01-01&date_etablissement_dpe_lte=2025-12-31&size=0": {
+"status": 200,
+"json": {
+"total": 186471,
+"results": []
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/lines?code_departement_ban_eq=75&etiquette_dpe_eq=A&size=0": {
+"status": 200,
+"json": {
+"total": 1065,
+"results": []
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/lines?date_etablissement_dpe_gte=2022-01-01&date_etablissement_dpe_lte=2022-12-31&etiquette_dpe_in=F,G&size=0": {
+"status": 200,
+"json": {
+"total": 309869,
+"results": []
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/lines?date_etablissement_dpe_gte=2022-01-01&date_etablissement_dpe_lte=2022-12-31&size=0": {
+"status": 200,
+"json": {
+"total": 2397417,
+"results": []
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/lines?etiquette_dpe_in=A,B&size=0&zone_climatique_eq=H3": {
+"status": 200,
+"json": {
+"total": 329256,
+"results": []
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/lines?etiquette_dpe_in=F,G&size=0": {
+"status": 200,
+"json": {
+"total": 1562205,
+"results": []
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/lines?size=0": {
+"status": 200,
+"json": {
+"total": 16003705,
+"results": []
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/lines?size=0&zone_climatique_eq=H3": {
+"status": 200,
+"json": {
+"total": 1851609,
+"results": []
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/metric_agg?code_departement_ban_eq=48&field=conso_5_usages_par_m2_ep&metric=avg": {
+"status": 200,
+"json": {
+"total": 11099,
+"metric": 279.07625912244345
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/metric_agg?code_departement_ban_eq=48&field=conso_5_usages_par_m2_ep&metric=percentiles&percents=10,50,90": {
+"status": 200,
+"json": {
+"total": 11099,
+"metric": [
+{
+"key": 10,
+"value": 138.72142037302729
+},
+{
+"key": 50,
+"value": 242.63671568627456
+},
+{
+"key": 90,
+"value": 469.3745085745897
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/metric_agg?code_departement_ban_eq=48&field=conso_5_usages_par_m2_ep&metric=percentiles&percents=50": {
+"status": 200,
+"json": {
+"total": 11099,
+"metric": [
+{
+"key": 50,
+"value": 242.61849296536798
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/metric_agg?code_departement_ban_eq=75&field=emission_ges_5_usages_par_m2&metric=avg&type_batiment_eq=appartement": {
+"status": 200,
+"json": {
+"total": 841905,
+"metric": 31.80609724375078
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/metric_agg?code_departement_ban_eq=75&field=emission_ges_5_usages_par_m2&metric=percentiles&percents=10,50,90&type_batiment_eq=appartement": {
+"status": 200,
+"json": {
+"total": 841905,
+"metric": [
+{
+"key": 10,
+"value": 7
+},
+{
+"key": 50,
+"value": 24.966651901655034
+},
+{
+"key": 90,
+"value": 64.97906739393709
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/metric_agg?code_departement_ban_eq=75&field=emission_ges_5_usages_par_m2&metric=percentiles&percents=50&type_batiment_eq=appartement": {
+"status": 200,
+"json": {
+"total": 841905,
+"metric": [
+{
+"key": 50,
+"value": 24.94497444981935
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/metric_agg?code_departement_ban_eq=93&field=conso_5_usages_par_m2_ep&metric=avg": {
+"status": 200,
+"json": {
+"total": 419164,
+"metric": 202.96710389136342
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/metric_agg?code_departement_ban_eq=93&field=conso_5_usages_par_m2_ep&metric=percentiles&percents=10,50,90": {
+"status": 200,
+"json": {
+"total": 419164,
+"metric": [
+{
+"key": 10,
+"value": 101.37899374175505
+},
+{
+"key": 50,
+"value": 180.32794264769902
+},
+{
+"key": 90,
+"value": 324.71502539495265
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/metric_agg?code_departement_ban_eq=93&field=conso_5_usages_par_m2_ep&metric=percentiles&percents=90": {
+"status": 200,
+"json": {
+"total": 419164,
+"metric": [
+{
+"key": 90,
+"value": 324.70852940406536
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/metric_agg?code_region_ban_eq=53&field=surface_habitable_logement&metric=avg&type_batiment_eq=maison": {
+"status": 200,
+"json": {
+"total": 310271,
+"metric": 104.43843181774203
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/metric_agg?code_region_ban_eq=53&field=surface_habitable_logement&metric=percentiles&percents=10,50,90&type_batiment_eq=maison": {
+"status": 200,
+"json": {
+"total": 310271,
+"metric": [
+{
+"key": 10,
+"value": 59.90726438681557
+},
+{
+"key": 50,
+"value": 96.19644697583284
+},
+{
+"key": 90,
+"value": 156.36347443691957
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/metric_agg?code_region_ban_eq=53&field=surface_habitable_logement&metric=percentiles&percents=90&type_batiment_eq=maison": {
+"status": 200,
+"json": {
+"total": 310271,
+"metric": [
+{
+"key": 90,
+"value": 156.44359670253453
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/metric_agg?field=date_etablissement_dpe&metric=max": {
+"status": 200,
+"json": {
+"total": 16003705,
+"metric": "2026-11-11"
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=1&code_departement_ban_eq=33&field=code_insee_ban&nom_commune_ban_eq=Bordeaux&size=0": {
+"status": 200,
+"json": {
+"total": 113846,
+"total_values": 2,
+"total_other": 1,
+"aggs": [
+{
+"total": 113845,
+"value": "33063",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=10&annee_construction_gte=1990&annee_construction_lte=1999&code_departement_ban_eq=33&field=etiquette_dpe&size=0&type_batiment_eq=appartement": {
+"status": 200,
+"json": {
+"total": 10449,
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 7461,
+"value": "C",
+"results": []
+},
+{
+"total": 2300,
+"value": "D",
+"results": []
+},
+{
+"total": 479,
+"value": "B",
+"results": []
+},
+{
+"total": 162,
+"value": "E",
+"results": []
+},
+{
+"total": 26,
+"value": "A",
+"results": []
+},
+{
+"total": 17,
+"value": "F",
+"results": []
+},
+{
+"total": 4,
+"value": "G",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=10&annee_construction_gte=2027&code_departement_ban_eq=75&field=etiquette_dpe&size=0": {
+"status": 200,
+"json": {
+"total": 5,
+"total_values": 3,
+"total_other": 0,
+"aggs": [
+{
+"total": 2,
+"value": "C",
+"results": []
+},
+{
+"total": 2,
+"value": "D",
+"results": []
+},
+{
+"total": 1,
+"value": "E",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=10&code_departement_ban_eq=29&field=etiquette_dpe&size=0": {
+"status": 200,
+"json": {
+"total": 184185,
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 63183,
+"value": "C",
+"results": []
+},
+{
+"total": 62685,
+"value": "D",
+"results": []
+},
+{
+"total": 27130,
+"value": "E",
+"results": []
+},
+{
+"total": 13250,
+"value": "F",
+"results": []
+},
+{
+"total": 7374,
+"value": "B",
+"results": []
+},
+{
+"total": 7045,
+"value": "G",
+"results": []
+},
+{
+"total": 3518,
+"value": "A",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=10&code_departement_ban_eq=33&field=code_insee_ban;nom_commune_ban&q=\"Bordeaux\"&q_fields=nom_commune_ban&size=0": {
+"status": 200,
+"json": {
+"total": 10000,
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 113857,
+"value": "33063",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 113845,
+"value": "Bordeaux",
+"results": []
+},
+{
+"total": 12,
+"value": "BORDEAUX",
+"results": []
+}
+]
+},
+{
+"total": 1502,
+"value": "33013",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1502,
+"value": "Artigues-près-Bordeaux",
+"results": []
+}
+]
+},
+{
+"total": 622,
+"value": "33099",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 621,
+"value": "Carignan-de-Bordeaux",
+"results": []
+},
+{
+"total": 1,
+"value": "CARIGNAN DE BORDEAUX",
+"results": []
+}
+]
+},
+{
+"total": 391,
+"value": "33381",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 391,
+"value": "Saint-Caprais-de-Bordeaux",
+"results": []
+}
+]
+},
+{
+"total": 77,
+"value": "33245",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 77,
+"value": "Lignan-de-Bordeaux",
+"results": []
+}
+]
+},
+{
+"total": 1,
+"value": "33162",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1,
+"value": "BORDEAUX CAUDERAN",
+"results": []
+}
+]
+},
+{
+"total": 1,
+"value": "33318",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1,
+"value": "Bordeaux",
+"results": []
+}
+]
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=10&code_departement_ban_eq=33&field=etiquette_dpe&periode_construction_eq=avant 1948&size=0&type_batiment_eq=maison": {
+"status": 200,
+"json": {
+"total": 45124,
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 14789,
+"value": "D",
+"results": []
+},
+{
+"total": 11957,
+"value": "C",
+"results": []
+},
+{
+"total": 9065,
+"value": "E",
+"results": []
+},
+{
+"total": 4424,
+"value": "F",
+"results": []
+},
+{
+"total": 2561,
+"value": "B",
+"results": []
+},
+{
+"total": 1769,
+"value": "G",
+"results": []
+},
+{
+"total": 559,
+"value": "A",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=10&code_departement_ban_eq=48&field=etiquette_dpe&size=0": {
+"status": 200,
+"json": {
+"total": 11099,
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 3058,
+"value": "D",
+"results": []
+},
+{
+"total": 2479,
+"value": "E",
+"results": []
+},
+{
+"total": 1927,
+"value": "C",
+"results": []
+},
+{
+"total": 1581,
+"value": "G",
+"results": []
+},
+{
+"total": 1555,
+"value": "F",
+"results": []
+},
+{
+"total": 396,
+"value": "B",
+"results": []
+},
+{
+"total": 103,
+"value": "A",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=10&code_departement_ban_eq=75&date_etablissement_dpe_gte=2025-01-01&date_etablissement_dpe_lte=2025-12-31&field=etiquette_dpe&size=0": {
+"status": 200,
+"json": {
+"total": 186471,
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 58790,
+"value": "D",
+"results": []
+},
+{
+"total": 51083,
+"value": "E",
+"results": []
+},
+{
+"total": 42232,
+"value": "C",
+"results": []
+},
+{
+"total": 19928,
+"value": "F",
+"results": []
+},
+{
+"total": 11934,
+"value": "G",
+"results": []
+},
+{
+"total": 2303,
+"value": "B",
+"results": []
+},
+{
+"total": 201,
+"value": "A",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=10&code_departement_ban_eq=75&field=etiquette_dpe&size=0": {
+"status": 200,
+"json": {
+"total": 864677,
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 267521,
+"value": "D",
+"results": []
+},
+{
+"total": 235073,
+"value": "E",
+"results": []
+},
+{
+"total": 193145,
+"value": "C",
+"results": []
+},
+{
+"total": 97185,
+"value": "F",
+"results": []
+},
+{
+"total": 60711,
+"value": "G",
+"results": []
+},
+{
+"total": 9977,
+"value": "B",
+"results": []
+},
+{
+"total": 1065,
+"value": "A",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=10&code_departement_ban_eq=75&field=etiquette_dpe&size=0&type_batiment_eq=appartement": {
+"status": 200,
+"json": {
+"total": 841905,
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 261469,
+"value": "D",
+"results": []
+},
+{
+"total": 228924,
+"value": "E",
+"results": []
+},
+{
+"total": 188915,
+"value": "C",
+"results": []
+},
+{
+"total": 93444,
+"value": "F",
+"results": []
+},
+{
+"total": 58584,
+"value": "G",
+"results": []
+},
+{
+"total": 9676,
+"value": "B",
+"results": []
+},
+{
+"total": 893,
+"value": "A",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=10&code_departement_ban_eq=93&field=etiquette_dpe&size=0": {
+"status": 200,
+"json": {
+"total": 419164,
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 166137,
+"value": "C",
+"results": []
+},
+{
+"total": 123874,
+"value": "D",
+"results": []
+},
+{
+"total": 71734,
+"value": "E",
+"results": []
+},
+{
+"total": 24169,
+"value": "F",
+"results": []
+},
+{
+"total": 16967,
+"value": "B",
+"results": []
+},
+{
+"total": 15167,
+"value": "G",
+"results": []
+},
+{
+"total": 1116,
+"value": "A",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=10&code_region_ban_eq=53&field=etiquette_dpe&size=0&type_batiment_eq=maison": {
+"status": 200,
+"json": {
+"total": 310271,
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 99076,
+"value": "D",
+"results": []
+},
+{
+"total": 80291,
+"value": "C",
+"results": []
+},
+{
+"total": 53073,
+"value": "E",
+"results": []
+},
+{
+"total": 32056,
+"value": "F",
+"results": []
+},
+{
+"total": 18796,
+"value": "G",
+"results": []
+},
+{
+"total": 15681,
+"value": "B",
+"results": []
+},
+{
+"total": 11298,
+"value": "A",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=10&date_etablissement_dpe_gte=2022-01-01&date_etablissement_dpe_lte=2022-12-31&field=etiquette_dpe&size=0": {
+"status": 200,
+"json": {
+"total": 2397417,
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 773339,
+"value": "D",
+"results": []
+},
+{
+"total": 748737,
+"value": "C",
+"results": []
+},
+{
+"total": 444930,
+"value": "E",
+"results": []
+},
+{
+"total": 192388,
+"value": "F",
+"results": []
+},
+{
+"total": 117481,
+"value": "G",
+"results": []
+},
+{
+"total": 95240,
+"value": "B",
+"results": []
+},
+{
+"total": 25302,
+"value": "A",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=10&field=etiquette_dpe&size=0": {
+"status": 200,
+"json": {
+"total": 16003705,
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 5881380,
+"value": "C",
+"results": []
+},
+{
+"total": 4970021,
+"value": "D",
+"results": []
+},
+{
+"total": 2540279,
+"value": "E",
+"results": []
+},
+{
+"total": 997338,
+"value": "F",
+"results": []
+},
+{
+"total": 805109,
+"value": "B",
+"results": []
+},
+{
+"total": 564867,
+"value": "G",
+"results": []
+},
+{
+"total": 244711,
+"value": "A",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=10&field=etiquette_dpe&size=0&zone_climatique_eq=H3": {
+"status": 200,
+"json": {
+"total": 1851609,
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 845446,
+"value": "C",
+"results": []
+},
+{
+"total": 442160,
+"value": "D",
+"results": []
+},
+{
+"total": 242853,
+"value": "B",
+"results": []
+},
+{
+"total": 167185,
+"value": "E",
+"results": []
+},
+{
+"total": 86403,
+"value": "A",
+"results": []
+},
+{
+"total": 52204,
+"value": "F",
+"results": []
+},
+{
+"total": 15358,
+"value": "G",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=100&code_departement_ban_eq=75&date_etablissement_dpe_gte=2025-01-01&date_etablissement_dpe_lte=2025-12-31&field=date_etablissement_dpe;etiquette_dpe&interval=year&size=0": {
+"status": 200,
+"json": {
+"total": 186471,
+"aggs": [
+{
+"total": 186471,
+"value": "2025-01-01",
+"results": [],
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 58790,
+"value": "D",
+"results": []
+},
+{
+"total": 51083,
+"value": "E",
+"results": []
+},
+{
+"total": 42232,
+"value": "C",
+"results": []
+},
+{
+"total": 19928,
+"value": "F",
+"results": []
+},
+{
+"total": 11934,
+"value": "G",
+"results": []
+},
+{
+"total": 2303,
+"value": "B",
+"results": []
+},
+{
+"total": 201,
+"value": "A",
+"results": []
+}
+]
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=100&code_departement_ban_in=75,59,69,92,13,93,94,33,44,31,76,78,62,06,91,34,77,95,83,38,57,67,35,74,51,49,14,29,54,42,37,56,30,64,60,17,45,63,68,21,85,73,01,84,27,50,80,25,66,72,22,71,02,26,87,86,28,40,11,24,03,88,81,16,18,79,89,10,47,41,08,07,61,36,53,65,12,39,82,58,19,05,04,52,43,90,70,32,55,09,46,2A,2B,15,23,48,972,974,971,973&etiquette_dpe_in=F,G&field=code_departement_ban&size=0": {
+"status": 200,
+"json": {
+"total": 1533813,
+"total_values": 100,
+"total_other": 0,
+"aggs": [
+{
+"total": 157896,
+"value": "75",
+"results": []
+},
+{
+"total": 63699,
+"value": "92",
+"results": []
+},
+{
+"total": 55015,
+"value": "59",
+"results": []
+},
+{
+"total": 45131,
+"value": "94",
+"results": []
+},
+{
+"total": 39336,
+"value": "93",
+"results": []
+},
+{
+"total": 37866,
+"value": "62",
+"results": []
+},
+{
+"total": 35909,
+"value": "69",
+"results": []
+},
+{
+"total": 35130,
+"value": "78",
+"results": []
+},
+{
+"total": 33963,
+"value": "76",
+"results": []
+},
+{
+"total": 27354,
+"value": "74",
+"results": []
+},
+{
+"total": 25834,
+"value": "38",
+"results": []
+},
+{
+"total": 25609,
+"value": "77",
+"results": []
+},
+{
+"total": 24602,
+"value": "95",
+"results": []
+},
+{
+"total": 23930,
+"value": "44",
+"results": []
+},
+{
+"total": 23840,
+"value": "91",
+"results": []
+},
+{
+"total": 23521,
+"value": "63",
+"results": []
+},
+{
+"total": 22101,
+"value": "14",
+"results": []
+},
+{
+"total": 21935,
+"value": "57",
+"results": []
+},
+{
+"total": 21639,
+"value": "67",
+"results": []
+},
+{
+"total": 21531,
+"value": "42",
+"results": []
+},
+{
+"total": 20295,
+"value": "29",
+"results": []
+},
+{
+"total": 20233,
+"value": "33",
+"results": []
+},
+{
+"total": 18075,
+"value": "73",
+"results": []
+},
+{
+"total": 17691,
+"value": "51",
+"results": []
+},
+{
+"total": 17450,
+"value": "06",
+"results": []
+},
+{
+"total": 17316,
+"value": "45",
+"results": []
+},
+{
+"total": 16967,
+"value": "54",
+"results": []
+},
+{
+"total": 16410,
+"value": "35",
+"results": []
+},
+{
+"total": 16404,
+"value": "60",
+"results": []
+},
+{
+"total": 16014,
+"value": "31",
+"results": []
+},
+{
+"total": 15931,
+"value": "13",
+"results": []
+},
+{
+"total": 15847,
+"value": "22",
+"results": []
+},
+{
+"total": 15660,
+"value": "71",
+"results": []
+},
+{
+"total": 15624,
+"value": "02",
+"results": []
+},
+{
+"total": 15247,
+"value": "49",
+"results": []
+},
+{
+"total": 15233,
+"value": "80",
+"results": []
+},
+{
+"total": 14620,
+"value": "68",
+"results": []
+},
+{
+"total": 14331,
+"value": "56",
+"results": []
+},
+{
+"total": 14249,
+"value": "21",
+"results": []
+},
+{
+"total": 14102,
+"value": "85",
+"results": []
+},
+{
+"total": 14018,
+"value": "17",
+"results": []
+},
+{
+"total": 13764,
+"value": "27",
+"results": []
+},
+{
+"total": 13579,
+"value": "03",
+"results": []
+},
+{
+"total": 12750,
+"value": "37",
+"results": []
+},
+{
+"total": 12360,
+"value": "84",
+"results": []
+},
+{
+"total": 12322,
+"value": "50",
+"results": []
+},
+{
+"total": 12311,
+"value": "01",
+"results": []
+},
+{
+"total": 12061,
+"value": "89",
+"results": []
+},
+{
+"total": 11330,
+"value": "87",
+"results": []
+},
+{
+"total": 11272,
+"value": "25",
+"results": []
+},
+{
+"total": 11226,
+"value": "28",
+"results": []
+},
+{
+"total": 11073,
+"value": "61",
+"results": []
+},
+{
+"total": 10111,
+"value": "64",
+"results": []
+},
+{
+"total": 10070,
+"value": "72",
+"results": []
+},
+{
+"total": 9882,
+"value": "05",
+"results": []
+},
+{
+"total": 9614,
+"value": "24",
+"results": []
+},
+{
+"total": 9535,
+"value": "19",
+"results": []
+},
+{
+"total": 9517,
+"value": "58",
+"results": []
+},
+{
+"total": 9456,
+"value": "83",
+"results": []
+},
+{
+"total": 9331,
+"value": "88",
+"results": []
+},
+{
+"total": 8761,
+"value": "18",
+"results": []
+},
+{
+"total": 8602,
+"value": "86",
+"results": []
+},
+{
+"total": 8580,
+"value": "07",
+"results": []
+},
+{
+"total": 8330,
+"value": "26",
+"results": []
+},
+{
+"total": 8144,
+"value": "41",
+"results": []
+},
+{
+"total": 8137,
+"value": "43",
+"results": []
+},
+{
+"total": 7693,
+"value": "34",
+"results": []
+},
+{
+"total": 7557,
+"value": "23",
+"results": []
+},
+{
+"total": 7546,
+"value": "16",
+"results": []
+},
+{
+"total": 7493,
+"value": "39",
+"results": []
+},
+{
+"total": 7464,
+"value": "12",
+"results": []
+},
+{
+"total": 7327,
+"value": "15",
+"results": []
+},
+{
+"total": 7322,
+"value": "10",
+"results": []
+},
+{
+"total": 7086,
+"value": "04",
+"results": []
+},
+{
+"total": 7059,
+"value": "08",
+"results": []
+},
+{
+"total": 6835,
+"value": "65",
+"results": []
+},
+{
+"total": 6811,
+"value": "36",
+"results": []
+},
+{
+"total": 6696,
+"value": "81",
+"results": []
+},
+{
+"total": 6119,
+"value": "47",
+"results": []
+},
+{
+"total": 6104,
+"value": "79",
+"results": []
+},
+{
+"total": 6073,
+"value": "40",
+"results": []
+},
+{
+"total": 5922,
+"value": "53",
+"results": []
+},
+{
+"total": 5492,
+"value": "30",
+"results": []
+},
+{
+"total": 5301,
+"value": "70",
+"results": []
+},
+{
+"total": 5233,
+"value": "66",
+"results": []
+},
+{
+"total": 5156,
+"value": "09",
+"results": []
+},
+{
+"total": 4674,
+"value": "52",
+"results": []
+},
+{
+"total": 4481,
+"value": "55",
+"results": []
+},
+{
+"total": 4332,
+"value": "46",
+"results": []
+},
+{
+"total": 4008,
+"value": "90",
+"results": []
+},
+{
+"total": 3269,
+"value": "82",
+"results": []
+},
+{
+"total": 3136,
+"value": "48",
+"results": []
+},
+{
+"total": 3074,
+"value": "32",
+"results": []
+},
+{
+"total": 2440,
+"value": "11",
+"results": []
+},
+{
+"total": 1224,
+"value": "2B",
+"results": []
+},
+{
+"total": 984,
+"value": "2A",
+"results": []
+},
+{
+"total": 146,
+"value": "972",
+"results": []
+},
+{
+"total": 43,
+"value": "974",
+"results": []
+},
+{
+"total": 27,
+"value": "971",
+"results": []
+},
+{
+"total": 10,
+"value": "973",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=100&date_etablissement_dpe_gte=2022-01-01&date_etablissement_dpe_lte=2022-12-31&field=date_etablissement_dpe;etiquette_dpe&interval=year&size=0": {
+"status": 200,
+"json": {
+"total": 2397417,
+"aggs": [
+{
+"total": 2397417,
+"value": "2022-01-01",
+"results": [],
+"total_values": 7,
+"total_other": 0,
+"aggs": [
+{
+"total": 773339,
+"value": "D",
+"results": []
+},
+{
+"total": 748737,
+"value": "C",
+"results": []
+},
+{
+"total": 444930,
+"value": "E",
+"results": []
+},
+{
+"total": 192388,
+"value": "F",
+"results": []
+},
+{
+"total": 117481,
+"value": "G",
+"results": []
+},
+{
+"total": 95240,
+"value": "B",
+"results": []
+},
+{
+"total": 25302,
+"value": "A",
+"results": []
+}
+]
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=1000&code_departement_ban_eq=33&etiquette_dpe_in=F,G&field=code_insee_ban&size=0": {
+"status": 200,
+"json": {
+"total": 20233,
+"total_values": 516,
+"total_other": 0,
+"aggs": [
+{
+"total": 7145,
+"value": "33063",
+"results": []
+},
+{
+"total": 724,
+"value": "33522",
+"results": []
+},
+{
+"total": 591,
+"value": "33281",
+"results": []
+},
+{
+"total": 576,
+"value": "33318",
+"results": []
+},
+{
+"total": 568,
+"value": "33249",
+"results": []
+},
+{
+"total": 519,
+"value": "33009",
+"results": []
+},
+{
+"total": 447,
+"value": "33243",
+"results": []
+},
+{
+"total": 388,
+"value": "33119",
+"results": []
+},
+{
+"total": 327,
+"value": "33529",
+"results": []
+},
+{
+"total": 322,
+"value": "33236",
+"results": []
+},
+{
+"total": 321,
+"value": "33039",
+"results": []
+},
+{
+"total": 303,
+"value": "33192",
+"results": []
+},
+{
+"total": 276,
+"value": "33069",
+"results": []
+},
+{
+"total": 231,
+"value": "33550",
+"results": []
+},
+{
+"total": 203,
+"value": "33005",
+"results": []
+},
+{
+"total": 201,
+"value": "33449",
+"results": []
+},
+{
+"total": 165,
+"value": "33214",
+"results": []
+},
+{
+"total": 140,
+"value": "33514",
+"results": []
+},
+{
+"total": 133,
+"value": "33162",
+"results": []
+},
+{
+"total": 132,
+"value": "33199",
+"results": []
+},
+{
+"total": 127,
+"value": "33138",
+"results": []
+},
+{
+"total": 117,
+"value": "33011",
+"results": []
+},
+{
+"total": 89,
+"value": "33058",
+"results": []
+},
+{
+"total": 87,
+"value": "33402",
+"results": []
+},
+{
+"total": 86,
+"value": "33167",
+"results": []
+},
+{
+"total": 84,
+"value": "33366",
+"results": []
+},
+{
+"total": 81,
+"value": "33003",
+"results": []
+},
+{
+"total": 81,
+"value": "33227",
+"results": []
+},
+{
+"total": 80,
+"value": "33108",
+"results": []
+},
+{
+"total": 79,
+"value": "33314",
+"results": []
+},
+{
+"total": 79,
+"value": "33352",
+"results": []
+},
+{
+"total": 74,
+"value": "33240",
+"results": []
+},
+{
+"total": 67,
+"value": "33036",
+"results": []
+},
+{
+"total": 65,
+"value": "33056",
+"results": []
+},
+{
+"total": 64,
+"value": "33097",
+"results": []
+},
+{
+"total": 62,
+"value": "33324",
+"results": []
+},
+{
+"total": 58,
+"value": "33203",
+"results": []
+},
+{
+"total": 57,
+"value": "33075",
+"results": []
+},
+{
+"total": 54,
+"value": "33433",
+"results": []
+},
+{
+"total": 51,
+"value": "33051",
+"results": []
+},
+{
+"total": 51,
+"value": "33229",
+"results": []
+},
+{
+"total": 49,
+"value": "33122",
+"results": []
+},
+{
+"total": 47,
+"value": "33337",
+"results": []
+},
+{
+"total": 44,
+"value": "33478",
+"results": []
+},
+{
+"total": 44,
+"value": "33540",
+"results": []
+},
+{
+"total": 44,
+"value": "33544",
+"results": []
+},
+{
+"total": 42,
+"value": "33394",
+"results": []
+},
+{
+"total": 42,
+"value": "33395",
+"results": []
+},
+{
+"total": 41,
+"value": "33096",
+"results": []
+},
+{
+"total": 41,
+"value": "33498",
+"results": []
+},
+{
+"total": 39,
+"value": "33019",
+"results": []
+},
+{
+"total": 39,
+"value": "33104",
+"results": []
+},
+{
+"total": 37,
+"value": "33447",
+"results": []
+},
+{
+"total": 36,
+"value": "33067",
+"results": []
+},
+{
+"total": 36,
+"value": "33393",
+"results": []
+},
+{
+"total": 35,
+"value": "33226",
+"results": []
+},
+{
+"total": 34,
+"value": "33081",
+"results": []
+},
+{
+"total": 33,
+"value": "33238",
+"results": []
+},
+{
+"total": 33,
+"value": "33389",
+"results": []
+},
+{
+"total": 32,
+"value": "33042",
+"results": []
+},
+{
+"total": 32,
+"value": "33080",
+"results": []
+},
+{
+"total": 32,
+"value": "33284",
+"results": []
+},
+{
+"total": 32,
+"value": "33333",
+"results": []
+},
+{
+"total": 32,
+"value": "33437",
+"results": []
+},
+{
+"total": 31,
+"value": "33001",
+"results": []
+},
+{
+"total": 31,
+"value": "33154",
+"results": []
+},
+{
+"total": 31,
+"value": "33213",
+"results": []
+},
+{
+"total": 30,
+"value": "33030",
+"results": []
+},
+{
+"total": 30,
+"value": "33032",
+"results": []
+},
+{
+"total": 30,
+"value": "33234",
+"results": []
+},
+{
+"total": 30,
+"value": "33527",
+"results": []
+},
+{
+"total": 29,
+"value": "33382",
+"results": []
+},
+{
+"total": 28,
+"value": "33268",
+"results": []
+},
+{
+"total": 27,
+"value": "33262",
+"results": []
+},
+{
+"total": 27,
+"value": "33327",
+"results": []
+},
+{
+"total": 26,
+"value": "33186",
+"results": []
+},
+{
+"total": 26,
+"value": "33380",
+"results": []
+},
+{
+"total": 26,
+"value": "33383",
+"results": []
+},
+{
+"total": 26,
+"value": "33424",
+"results": []
+},
+{
+"total": 25,
+"value": "33140",
+"results": []
+},
+{
+"total": 25,
+"value": "33312",
+"results": []
+},
+{
+"total": 24,
+"value": "33018",
+"results": []
+},
+{
+"total": 24,
+"value": "33344",
+"results": []
+},
+{
+"total": 24,
+"value": "33490",
+"results": []
+},
+{
+"total": 24,
+"value": "33539",
+"results": []
+},
+{
+"total": 23,
+"value": "33004",
+"results": []
+},
+{
+"total": 23,
+"value": "33261",
+"results": []
+},
+{
+"total": 23,
+"value": "33485",
+"results": []
+},
+{
+"total": 23,
+"value": "33519",
+"results": []
+},
+{
+"total": 22,
+"value": "33015",
+"results": []
+},
+{
+"total": 22,
+"value": "33159",
+"results": []
+},
+{
+"total": 22,
+"value": "33198",
+"results": []
+},
+{
+"total": 22,
+"value": "33200",
+"results": []
+},
+{
+"total": 22,
+"value": "33207",
+"results": []
+},
+{
+"total": 22,
+"value": "33319",
+"results": []
+},
+{
+"total": 22,
+"value": "33351",
+"results": []
+},
+{
+"total": 21,
+"value": "33040",
+"results": []
+},
+{
+"total": 21,
+"value": "33085",
+"results": []
+},
+{
+"total": 21,
+"value": "33143",
+"results": []
+},
+{
+"total": 21,
+"value": "33177",
+"results": []
+},
+{
+"total": 21,
+"value": "33525",
+"results": []
+},
+{
+"total": 20,
+"value": "33052",
+"results": []
+},
+{
+"total": 20,
+"value": "33100",
+"results": []
+},
+{
+"total": 20,
+"value": "33535",
+"results": []
+},
+{
+"total": 19,
+"value": "33057",
+"results": []
+},
+{
+"total": 19,
+"value": "33065",
+"results": []
+},
+{
+"total": 19,
+"value": "33125",
+"results": []
+},
+{
+"total": 19,
+"value": "33179",
+"results": []
+},
+{
+"total": 19,
+"value": "33193",
+"results": []
+},
+{
+"total": 19,
+"value": "33205",
+"results": []
+},
+{
+"total": 19,
+"value": "33334",
+"results": []
+},
+{
+"total": 19,
+"value": "33348",
+"results": []
+},
+{
+"total": 19,
+"value": "33378",
+"results": []
+},
+{
+"total": 19,
+"value": "33448",
+"results": []
+},
+{
+"total": 19,
+"value": "33506",
+"results": []
+},
+{
+"total": 18,
+"value": "33029",
+"results": []
+},
+{
+"total": 18,
+"value": "33038",
+"results": []
+},
+{
+"total": 18,
+"value": "33084",
+"results": []
+},
+{
+"total": 18,
+"value": "33336",
+"results": []
+},
+{
+"total": 18,
+"value": "33397",
+"results": []
+},
+{
+"total": 18,
+"value": "33422",
+"results": []
+},
+{
+"total": 18,
+"value": "33435",
+"results": []
+},
+{
+"total": 17,
+"value": "33101",
+"results": []
+},
+{
+"total": 17,
+"value": "33151",
+"results": []
+},
+{
+"total": 17,
+"value": "33165",
+"results": []
+},
+{
+"total": 17,
+"value": "33253",
+"results": []
+},
+{
+"total": 17,
+"value": "33289",
+"results": []
+},
+{
+"total": 17,
+"value": "33297",
+"results": []
+},
+{
+"total": 17,
+"value": "33349",
+"results": []
+},
+{
+"total": 17,
+"value": "33376",
+"results": []
+},
+{
+"total": 17,
+"value": "33413",
+"results": []
+},
+{
+"total": 17,
+"value": "33483",
+"results": []
+},
+{
+"total": 16,
+"value": "33106",
+"results": []
+},
+{
+"total": 16,
+"value": "33174",
+"results": []
+},
+{
+"total": 16,
+"value": "33256",
+"results": []
+},
+{
+"total": 16,
+"value": "33293",
+"results": []
+},
+{
+"total": 16,
+"value": "33311",
+"results": []
+},
+{
+"total": 16,
+"value": "33322",
+"results": []
+},
+{
+"total": 16,
+"value": "33412",
+"results": []
+},
+{
+"total": 16,
+"value": "33543",
+"results": []
+},
+{
+"total": 16,
+"value": "33547",
+"results": []
+},
+{
+"total": 15,
+"value": "33022",
+"results": []
+},
+{
+"total": 15,
+"value": "33035",
+"results": []
+},
+{
+"total": 15,
+"value": "33037",
+"results": []
+},
+{
+"total": 15,
+"value": "33073",
+"results": []
+},
+{
+"total": 15,
+"value": "33077",
+"results": []
+},
+{
+"total": 15,
+"value": "33120",
+"results": []
+},
+{
+"total": 15,
+"value": "33182",
+"results": []
+},
+{
+"total": 15,
+"value": "33195",
+"results": []
+},
+{
+"total": 15,
+"value": "33248",
+"results": []
+},
+{
+"total": 15,
+"value": "33290",
+"results": []
+},
+{
+"total": 15,
+"value": "33307",
+"results": []
+},
+{
+"total": 15,
+"value": "33342",
+"results": []
+},
+{
+"total": 15,
+"value": "33438",
+"results": []
+},
+{
+"total": 15,
+"value": "33458",
+"results": []
+},
+{
+"total": 15,
+"value": "33473",
+"results": []
+},
+{
+"total": 15,
+"value": "33505",
+"results": []
+},
+{
+"total": 15,
+"value": "33533",
+"results": []
+},
+{
+"total": 15,
+"value": "33548",
+"results": []
+},
+{
+"total": 15,
+"value": "33554",
+"results": []
+},
+{
+"total": 14,
+"value": "33002",
+"results": []
+},
+{
+"total": 14,
+"value": "33013",
+"results": []
+},
+{
+"total": 14,
+"value": "33099",
+"results": []
+},
+{
+"total": 14,
+"value": "33146",
+"results": []
+},
+{
+"total": 14,
+"value": "33273",
+"results": []
+},
+{
+"total": 14,
+"value": "33317",
+"results": []
+},
+{
+"total": 14,
+"value": "33355",
+"results": []
+},
+{
+"total": 14,
+"value": "33387",
+"results": []
+},
+{
+"total": 14,
+"value": "33416",
+"results": []
+},
+{
+"total": 14,
+"value": "33466",
+"results": []
+},
+{
+"total": 13,
+"value": "33160",
+"results": []
+},
+{
+"total": 13,
+"value": "33168",
+"results": []
+},
+{
+"total": 13,
+"value": "33201",
+"results": []
+},
+{
+"total": 13,
+"value": "33202",
+"results": []
+},
+{
+"total": 13,
+"value": "33220",
+"results": []
+},
+{
+"total": 13,
+"value": "33296",
+"results": []
+},
+{
+"total": 13,
+"value": "33465",
+"results": []
+},
+{
+"total": 13,
+"value": "33484",
+"results": []
+},
+{
+"total": 13,
+"value": "33487",
+"results": []
+},
+{
+"total": 13,
+"value": "33501",
+"results": []
+},
+{
+"total": 13,
+"value": "33523",
+"results": []
+},
+{
+"total": 13,
+"value": "33541",
+"results": []
+},
+{
+"total": 13,
+"value": "33545",
+"results": []
+},
+{
+"total": 12,
+"value": "33021",
+"results": []
+},
+{
+"total": 12,
+"value": "33033",
+"results": []
+},
+{
+"total": 12,
+"value": "33170",
+"results": []
+},
+{
+"total": 12,
+"value": "33184",
+"results": []
+},
+{
+"total": 12,
+"value": "33211",
+"results": []
+},
+{
+"total": 12,
+"value": "33259",
+"results": []
+},
+{
+"total": 12,
+"value": "33298",
+"results": []
+},
+{
+"total": 12,
+"value": "33315",
+"results": []
+},
+{
+"total": 12,
+"value": "33330",
+"results": []
+},
+{
+"total": 12,
+"value": "33363",
+"results": []
+},
+{
+"total": 12,
+"value": "33369",
+"results": []
+},
+{
+"total": 12,
+"value": "33415",
+"results": []
+},
+{
+"total": 12,
+"value": "33434",
+"results": []
+},
+{
+"total": 12,
+"value": "33463",
+"results": []
+},
+{
+"total": 12,
+"value": "33518",
+"results": []
+},
+{
+"total": 11,
+"value": "33071",
+"results": []
+},
+{
+"total": 11,
+"value": "33076",
+"results": []
+},
+{
+"total": 11,
+"value": "33093",
+"results": []
+},
+{
+"total": 11,
+"value": "33233",
+"results": []
+},
+{
+"total": 11,
+"value": "33242",
+"results": []
+},
+{
+"total": 11,
+"value": "33287",
+"results": []
+},
+{
+"total": 11,
+"value": "33325",
+"results": []
+},
+{
+"total": 11,
+"value": "33339",
+"results": []
+},
+{
+"total": 11,
+"value": "33350",
+"results": []
+},
+{
+"total": 11,
+"value": "33374",
+"results": []
+},
+{
+"total": 11,
+"value": "33384",
+"results": []
+},
+{
+"total": 11,
+"value": "33476",
+"results": []
+},
+{
+"total": 11,
+"value": "33480",
+"results": []
+},
+{
+"total": 11,
+"value": "33496",
+"results": []
+},
+{
+"total": 11,
+"value": "33537",
+"results": []
+},
+{
+"total": 11,
+"value": "33538",
+"results": []
+},
+{
+"total": 10,
+"value": "33012",
+"results": []
+},
+{
+"total": 10,
+"value": "33047",
+"results": []
+},
+{
+"total": 10,
+"value": "33049",
+"results": []
+},
+{
+"total": 10,
+"value": "33095",
+"results": []
+},
+{
+"total": 10,
+"value": "33123",
+"results": []
+},
+{
+"total": 10,
+"value": "33185",
+"results": []
+},
+{
+"total": 10,
+"value": "33218",
+"results": []
+},
+{
+"total": 10,
+"value": "33219",
+"results": []
+},
+{
+"total": 10,
+"value": "33221",
+"results": []
+},
+{
+"total": 10,
+"value": "33225",
+"results": []
+},
+{
+"total": 10,
+"value": "33260",
+"results": []
+},
+{
+"total": 10,
+"value": "33279",
+"results": []
+},
+{
+"total": 10,
+"value": "33300",
+"results": []
+},
+{
+"total": 10,
+"value": "33316",
+"results": []
+},
+{
+"total": 10,
+"value": "33381",
+"results": []
+},
+{
+"total": 10,
+"value": "33392",
+"results": []
+},
+{
+"total": 10,
+"value": "33405",
+"results": []
+},
+{
+"total": 10,
+"value": "33461",
+"results": []
+},
+{
+"total": 10,
+"value": "33492",
+"results": []
+},
+{
+"total": 10,
+"value": "33555",
+"results": []
+},
+{
+"total": 9,
+"value": "33006",
+"results": []
+},
+{
+"total": 9,
+"value": "33010",
+"results": []
+},
+{
+"total": 9,
+"value": "33023",
+"results": []
+},
+{
+"total": 9,
+"value": "33082",
+"results": []
+},
+{
+"total": 9,
+"value": "33083",
+"results": []
+},
+{
+"total": 9,
+"value": "33109",
+"results": []
+},
+{
+"total": 9,
+"value": "33118",
+"results": []
+},
+{
+"total": 9,
+"value": "33194",
+"results": []
+},
+{
+"total": 9,
+"value": "33206",
+"results": []
+},
+{
+"total": 9,
+"value": "33222",
+"results": []
+},
+{
+"total": 9,
+"value": "33266",
+"results": []
+},
+{
+"total": 9,
+"value": "33274",
+"results": []
+},
+{
+"total": 9,
+"value": "33302",
+"results": []
+},
+{
+"total": 9,
+"value": "33320",
+"results": []
+},
+{
+"total": 9,
+"value": "33323",
+"results": []
+},
+{
+"total": 9,
+"value": "33332",
+"results": []
+},
+{
+"total": 9,
+"value": "33341",
+"results": []
+},
+{
+"total": 9,
+"value": "33361",
+"results": []
+},
+{
+"total": 9,
+"value": "33362",
+"results": []
+},
+{
+"total": 9,
+"value": "33385",
+"results": []
+},
+{
+"total": 9,
+"value": "33452",
+"results": []
+},
+{
+"total": 9,
+"value": "33454",
+"results": []
+},
+{
+"total": 9,
+"value": "33521",
+"results": []
+},
+{
+"total": 9,
+"value": "33530",
+"results": []
+},
+{
+"total": 8,
+"value": "33014",
+"results": []
+},
+{
+"total": 8,
+"value": "33028",
+"results": []
+},
+{
+"total": 8,
+"value": "33078",
+"results": []
+},
+{
+"total": 8,
+"value": "33124",
+"results": []
+},
+{
+"total": 8,
+"value": "33128",
+"results": []
+},
+{
+"total": 8,
+"value": "33157",
+"results": []
+},
+{
+"total": 8,
+"value": "33175",
+"results": []
+},
+{
+"total": 8,
+"value": "33191",
+"results": []
+},
+{
+"total": 8,
+"value": "33208",
+"results": []
+},
+{
+"total": 8,
+"value": "33230",
+"results": []
+},
+{
+"total": 8,
+"value": "33245",
+"results": []
+},
+{
+"total": 8,
+"value": "33257",
+"results": []
+},
+{
+"total": 8,
+"value": "33258",
+"results": []
+},
+{
+"total": 8,
+"value": "33264",
+"results": []
+},
+{
+"total": 8,
+"value": "33321",
+"results": []
+},
+{
+"total": 8,
+"value": "33356",
+"results": []
+},
+{
+"total": 8,
+"value": "33357",
+"results": []
+},
+{
+"total": 8,
+"value": "33400",
+"results": []
+},
+{
+"total": 8,
+"value": "33417",
+"results": []
+},
+{
+"total": 8,
+"value": "33426",
+"results": []
+},
+{
+"total": 8,
+"value": "33441",
+"results": []
+},
+{
+"total": 8,
+"value": "33509",
+"results": []
+},
+{
+"total": 8,
+"value": "33534",
+"results": []
+},
+{
+"total": 8,
+"value": "33553",
+"results": []
+},
+{
+"total": 7,
+"value": "33090",
+"results": []
+},
+{
+"total": 7,
+"value": "33094",
+"results": []
+},
+{
+"total": 7,
+"value": "33102",
+"results": []
+},
+{
+"total": 7,
+"value": "33114",
+"results": []
+},
+{
+"total": 7,
+"value": "33161",
+"results": []
+},
+{
+"total": 7,
+"value": "33166",
+"results": []
+},
+{
+"total": 7,
+"value": "33251",
+"results": []
+},
+{
+"total": 7,
+"value": "33269",
+"results": []
+},
+{
+"total": 7,
+"value": "33272",
+"results": []
+},
+{
+"total": 7,
+"value": "33375",
+"results": []
+},
+{
+"total": 7,
+"value": "33388",
+"results": []
+},
+{
+"total": 7,
+"value": "33423",
+"results": []
+},
+{
+"total": 7,
+"value": "33439",
+"results": []
+},
+{
+"total": 7,
+"value": "33442",
+"results": []
+},
+{
+"total": 7,
+"value": "33467",
+"results": []
+},
+{
+"total": 7,
+"value": "33470",
+"results": []
+},
+{
+"total": 7,
+"value": "33488",
+"results": []
+},
+{
+"total": 7,
+"value": "33494",
+"results": []
+},
+{
+"total": 7,
+"value": "33516",
+"results": []
+},
+{
+"total": 7,
+"value": "33517",
+"results": []
+},
+{
+"total": 7,
+"value": "33542",
+"results": []
+},
+{
+"total": 6,
+"value": "33027",
+"results": []
+},
+{
+"total": 6,
+"value": "33046",
+"results": []
+},
+{
+"total": 6,
+"value": "33087",
+"results": []
+},
+{
+"total": 6,
+"value": "33089",
+"results": []
+},
+{
+"total": 6,
+"value": "33111",
+"results": []
+},
+{
+"total": 6,
+"value": "33142",
+"results": []
+},
+{
+"total": 6,
+"value": "33187",
+"results": []
+},
+{
+"total": 6,
+"value": "33189",
+"results": []
+},
+{
+"total": 6,
+"value": "33215",
+"results": []
+},
+{
+"total": 6,
+"value": "33237",
+"results": []
+},
+{
+"total": 6,
+"value": "33277",
+"results": []
+},
+{
+"total": 6,
+"value": "33285",
+"results": []
+},
+{
+"total": 6,
+"value": "33328",
+"results": []
+},
+{
+"total": 6,
+"value": "33343",
+"results": []
+},
+{
+"total": 6,
+"value": "33345",
+"results": []
+},
+{
+"total": 6,
+"value": "33407",
+"results": []
+},
+{
+"total": 6,
+"value": "33432",
+"results": []
+},
+{
+"total": 6,
+"value": "33445",
+"results": []
+},
+{
+"total": 6,
+"value": "33450",
+"results": []
+},
+{
+"total": 6,
+"value": "33451",
+"results": []
+},
+{
+"total": 6,
+"value": "33456",
+"results": []
+},
+{
+"total": 6,
+"value": "33460",
+"results": []
+},
+{
+"total": 6,
+"value": "33462",
+"results": []
+},
+{
+"total": 6,
+"value": "33468",
+"results": []
+},
+{
+"total": 6,
+"value": "33474",
+"results": []
+},
+{
+"total": 6,
+"value": "33491",
+"results": []
+},
+{
+"total": 6,
+"value": "33493",
+"results": []
+},
+{
+"total": 6,
+"value": "33504",
+"results": []
+},
+{
+"total": 6,
+"value": "33508",
+"results": []
+},
+{
+"total": 6,
+"value": "33512",
+"results": []
+},
+{
+"total": 6,
+"value": "33552",
+"results": []
+},
+{
+"total": 5,
+"value": "33060",
+"results": []
+},
+{
+"total": 5,
+"value": "33115",
+"results": []
+},
+{
+"total": 5,
+"value": "33127",
+"results": []
+},
+{
+"total": 5,
+"value": "33132",
+"results": []
+},
+{
+"total": 5,
+"value": "33156",
+"results": []
+},
+{
+"total": 5,
+"value": "33164",
+"results": []
+},
+{
+"total": 5,
+"value": "33171",
+"results": []
+},
+{
+"total": 5,
+"value": "33204",
+"results": []
+},
+{
+"total": 5,
+"value": "33209",
+"results": []
+},
+{
+"total": 5,
+"value": "33294",
+"results": []
+},
+{
+"total": 5,
+"value": "33301",
+"results": []
+},
+{
+"total": 5,
+"value": "33309",
+"results": []
+},
+{
+"total": 5,
+"value": "33331",
+"results": []
+},
+{
+"total": 5,
+"value": "33346",
+"results": []
+},
+{
+"total": 5,
+"value": "33358",
+"results": []
+},
+{
+"total": 5,
+"value": "33404",
+"results": []
+},
+{
+"total": 5,
+"value": "33406",
+"results": []
+},
+{
+"total": 5,
+"value": "33418",
+"results": []
+},
+{
+"total": 5,
+"value": "33425",
+"results": []
+},
+{
+"total": 5,
+"value": "33443",
+"results": []
+},
+{
+"total": 5,
+"value": "33475",
+"results": []
+},
+{
+"total": 5,
+"value": "33477",
+"results": []
+},
+{
+"total": 5,
+"value": "33511",
+"results": []
+},
+{
+"total": 5,
+"value": "33515",
+"results": []
+},
+{
+"total": 5,
+"value": "33528",
+"results": []
+},
+{
+"total": 5,
+"value": "33551",
+"results": []
+},
+{
+"total": 4,
+"value": "33007",
+"results": []
+},
+{
+"total": 4,
+"value": "33026",
+"results": []
+},
+{
+"total": 4,
+"value": "33034",
+"results": []
+},
+{
+"total": 4,
+"value": "33112",
+"results": []
+},
+{
+"total": 4,
+"value": "33130",
+"results": []
+},
+{
+"total": 4,
+"value": "33134",
+"results": []
+},
+{
+"total": 4,
+"value": "33150",
+"results": []
+},
+{
+"total": 4,
+"value": "33152",
+"results": []
+},
+{
+"total": 4,
+"value": "33158",
+"results": []
+},
+{
+"total": 4,
+"value": "33173",
+"results": []
+},
+{
+"total": 4,
+"value": "33181",
+"results": []
+},
+{
+"total": 4,
+"value": "33196",
+"results": []
+},
+{
+"total": 4,
+"value": "33197",
+"results": []
+},
+{
+"total": 4,
+"value": "33239",
+"results": []
+},
+{
+"total": 4,
+"value": "33254",
+"results": []
+},
+{
+"total": 4,
+"value": "33255",
+"results": []
+},
+{
+"total": 4,
+"value": "33280",
+"results": []
+},
+{
+"total": 4,
+"value": "33282",
+"results": []
+},
+{
+"total": 4,
+"value": "33283",
+"results": []
+},
+{
+"total": 4,
+"value": "33360",
+"results": []
+},
+{
+"total": 4,
+"value": "33365",
+"results": []
+},
+{
+"total": 4,
+"value": "33373",
+"results": []
+},
+{
+"total": 4,
+"value": "33379",
+"results": []
+},
+{
+"total": 4,
+"value": "33390",
+"results": []
+},
+{
+"total": 4,
+"value": "33414",
+"results": []
+},
+{
+"total": 4,
+"value": "33427",
+"results": []
+},
+{
+"total": 4,
+"value": "33428",
+"results": []
+},
+{
+"total": 4,
+"value": "33436",
+"results": []
+},
+{
+"total": 4,
+"value": "33444",
+"results": []
+},
+{
+"total": 4,
+"value": "33459",
+"results": []
+},
+{
+"total": 4,
+"value": "33464",
+"results": []
+},
+{
+"total": 4,
+"value": "33471",
+"results": []
+},
+{
+"total": 4,
+"value": "33500",
+"results": []
+},
+{
+"total": 4,
+"value": "33502",
+"results": []
+},
+{
+"total": 4,
+"value": "33503",
+"results": []
+},
+{
+"total": 4,
+"value": "33507",
+"results": []
+},
+{
+"total": 4,
+"value": "33532",
+"results": []
+},
+{
+"total": 4,
+"value": "33546",
+"results": []
+},
+{
+"total": 3,
+"value": "33008",
+"results": []
+},
+{
+"total": 3,
+"value": "33016",
+"results": []
+},
+{
+"total": 3,
+"value": "33050",
+"results": []
+},
+{
+"total": 3,
+"value": "33061",
+"results": []
+},
+{
+"total": 3,
+"value": "33113",
+"results": []
+},
+{
+"total": 3,
+"value": "33126",
+"results": []
+},
+{
+"total": 3,
+"value": "33141",
+"results": []
+},
+{
+"total": 3,
+"value": "33144",
+"results": []
+},
+{
+"total": 3,
+"value": "33147",
+"results": []
+},
+{
+"total": 3,
+"value": "33163",
+"results": []
+},
+{
+"total": 3,
+"value": "33172",
+"results": []
+},
+{
+"total": 3,
+"value": "33176",
+"results": []
+},
+{
+"total": 3,
+"value": "33178",
+"results": []
+},
+{
+"total": 3,
+"value": "33180",
+"results": []
+},
+{
+"total": 3,
+"value": "33190",
+"results": []
+},
+{
+"total": 3,
+"value": "33210",
+"results": []
+},
+{
+"total": 3,
+"value": "33228",
+"results": []
+},
+{
+"total": 3,
+"value": "33246",
+"results": []
+},
+{
+"total": 3,
+"value": "33288",
+"results": []
+},
+{
+"total": 3,
+"value": "33295",
+"results": []
+},
+{
+"total": 3,
+"value": "33304",
+"results": []
+},
+{
+"total": 3,
+"value": "33305",
+"results": []
+},
+{
+"total": 3,
+"value": "33308",
+"results": []
+},
+{
+"total": 3,
+"value": "33354",
+"results": []
+},
+{
+"total": 3,
+"value": "33364",
+"results": []
+},
+{
+"total": 3,
+"value": "33367",
+"results": []
+},
+{
+"total": 3,
+"value": "33370",
+"results": []
+},
+{
+"total": 3,
+"value": "33372",
+"results": []
+},
+{
+"total": 3,
+"value": "33386",
+"results": []
+},
+{
+"total": 3,
+"value": "33396",
+"results": []
+},
+{
+"total": 3,
+"value": "33398",
+"results": []
+},
+{
+"total": 3,
+"value": "33408",
+"results": []
+},
+{
+"total": 3,
+"value": "33472",
+"results": []
+},
+{
+"total": 3,
+"value": "33486",
+"results": []
+},
+{
+"total": 3,
+"value": "33489",
+"results": []
+},
+{
+"total": 3,
+"value": "33520",
+"results": []
+},
+{
+"total": 3,
+"value": "33526",
+"results": []
+},
+{
+"total": 3,
+"value": "33531",
+"results": []
+},
+{
+"total": 3,
+"value": "33536",
+"results": []
+},
+{
+"total": 3,
+"value": "33549",
+"results": []
+},
+{
+"total": 2,
+"value": "33024",
+"results": []
+},
+{
+"total": 2,
+"value": "33031",
+"results": []
+},
+{
+"total": 2,
+"value": "33044",
+"results": []
+},
+{
+"total": 2,
+"value": "33045",
+"results": []
+},
+{
+"total": 2,
+"value": "33048",
+"results": []
+},
+{
+"total": 2,
+"value": "33055",
+"results": []
+},
+{
+"total": 2,
+"value": "33059",
+"results": []
+},
+{
+"total": 2,
+"value": "33062",
+"results": []
+},
+{
+"total": 2,
+"value": "33086",
+"results": []
+},
+{
+"total": 2,
+"value": "33088",
+"results": []
+},
+{
+"total": 2,
+"value": "33129",
+"results": []
+},
+{
+"total": 2,
+"value": "33133",
+"results": []
+},
+{
+"total": 2,
+"value": "33136",
+"results": []
+},
+{
+"total": 2,
+"value": "33137",
+"results": []
+},
+{
+"total": 2,
+"value": "33145",
+"results": []
+},
+{
+"total": 2,
+"value": "33153",
+"results": []
+},
+{
+"total": 2,
+"value": "33155",
+"results": []
+},
+{
+"total": 2,
+"value": "33183",
+"results": []
+},
+{
+"total": 2,
+"value": "33216",
+"results": []
+},
+{
+"total": 2,
+"value": "33223",
+"results": []
+},
+{
+"total": 2,
+"value": "33231",
+"results": []
+},
+{
+"total": 2,
+"value": "33232",
+"results": []
+},
+{
+"total": 2,
+"value": "33241",
+"results": []
+},
+{
+"total": 2,
+"value": "33250",
+"results": []
+},
+{
+"total": 2,
+"value": "33271",
+"results": []
+},
+{
+"total": 2,
+"value": "33278",
+"results": []
+},
+{
+"total": 2,
+"value": "33291",
+"results": []
+},
+{
+"total": 2,
+"value": "33303",
+"results": []
+},
+{
+"total": 2,
+"value": "33310",
+"results": []
+},
+{
+"total": 2,
+"value": "33347",
+"results": []
+},
+{
+"total": 2,
+"value": "33353",
+"results": []
+},
+{
+"total": 2,
+"value": "33377",
+"results": []
+},
+{
+"total": 2,
+"value": "33399",
+"results": []
+},
+{
+"total": 2,
+"value": "33401",
+"results": []
+},
+{
+"total": 2,
+"value": "33411",
+"results": []
+},
+{
+"total": 2,
+"value": "33419",
+"results": []
+},
+{
+"total": 2,
+"value": "33420",
+"results": []
+},
+{
+"total": 2,
+"value": "33421",
+"results": []
+},
+{
+"total": 2,
+"value": "33429",
+"results": []
+},
+{
+"total": 2,
+"value": "33431",
+"results": []
+},
+{
+"total": 2,
+"value": "33453",
+"results": []
+},
+{
+"total": 2,
+"value": "33479",
+"results": []
+},
+{
+"total": 2,
+"value": "33481",
+"results": []
+},
+{
+"total": 2,
+"value": "33482",
+"results": []
+},
+{
+"total": 2,
+"value": "33499",
+"results": []
+},
+{
+"total": 2,
+"value": "33510",
+"results": []
+},
+{
+"total": 2,
+"value": "33524",
+"results": []
+},
+{
+"total": 1,
+"value": "33017",
+"results": []
+},
+{
+"total": 1,
+"value": "33020",
+"results": []
+},
+{
+"total": 1,
+"value": "33053",
+"results": []
+},
+{
+"total": 1,
+"value": "33068",
+"results": []
+},
+{
+"total": 1,
+"value": "33070",
+"results": []
+},
+{
+"total": 1,
+"value": "33072",
+"results": []
+},
+{
+"total": 1,
+"value": "33074",
+"results": []
+},
+{
+"total": 1,
+"value": "33079",
+"results": []
+},
+{
+"total": 1,
+"value": "33103",
+"results": []
+},
+{
+"total": 1,
+"value": "33105",
+"results": []
+},
+{
+"total": 1,
+"value": "33116",
+"results": []
+},
+{
+"total": 1,
+"value": "33117",
+"results": []
+},
+{
+"total": 1,
+"value": "33131",
+"results": []
+},
+{
+"total": 1,
+"value": "33135",
+"results": []
+},
+{
+"total": 1,
+"value": "33139",
+"results": []
+},
+{
+"total": 1,
+"value": "33149",
+"results": []
+},
+{
+"total": 1,
+"value": "33188",
+"results": []
+},
+{
+"total": 1,
+"value": "33212",
+"results": []
+},
+{
+"total": 1,
+"value": "33224",
+"results": []
+},
+{
+"total": 1,
+"value": "33235",
+"results": []
+},
+{
+"total": 1,
+"value": "33244",
+"results": []
+},
+{
+"total": 1,
+"value": "33252",
+"results": []
+},
+{
+"total": 1,
+"value": "33276",
+"results": []
+},
+{
+"total": 1,
+"value": "33299",
+"results": []
+},
+{
+"total": 1,
+"value": "33326",
+"results": []
+},
+{
+"total": 1,
+"value": "33329",
+"results": []
+},
+{
+"total": 1,
+"value": "33359",
+"results": []
+},
+{
+"total": 1,
+"value": "33391",
+"results": []
+},
+{
+"total": 1,
+"value": "33440",
+"results": []
+},
+{
+"total": 1,
+"value": "33457",
+"results": []
+},
+{
+"total": 1,
+"value": "33513",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=1000&etiquette_dpe_in=A,B&field=code_region_ban&size=0": {
+"status": 200,
+"json": {
+"total": 1049820,
+"total_values": 19,
+"total_other": 0,
+"aggs": [
+{
+"total": 191418,
+"value": "76",
+"results": []
+},
+{
+"total": 186089,
+"value": "93",
+"results": []
+},
+{
+"total": 111137,
+"value": "11",
+"results": []
+},
+{
+"total": 104006,
+"value": "75",
+"results": []
+},
+{
+"total": 93520,
+"value": "84",
+"results": []
+},
+{
+"total": 63917,
+"value": "44",
+"results": []
+},
+{
+"total": 61100,
+"value": "52",
+"results": []
+},
+{
+"total": 45475,
+"value": "53",
+"results": []
+},
+{
+"total": 41022,
+"value": "28",
+"results": []
+},
+{
+"total": 38040,
+"value": "32",
+"results": []
+},
+{
+"total": 28681,
+"value": "27",
+"results": []
+},
+{
+"total": 26275,
+"value": "24",
+"results": []
+},
+{
+"total": 15300,
+"value": "94",
+"results": []
+},
+{
+"total": 666,
+"value": "02",
+"results": []
+},
+{
+"total": 60,
+"value": "01",
+"results": []
+},
+{
+"total": 37,
+"value": "04",
+"results": []
+},
+{
+"total": 9,
+"value": "03",
+"results": []
+},
+{
+"total": 5,
+"value": "06",
+"results": []
+},
+{
+"total": 3,
+"value": "00",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=1000&etiquette_dpe_in=F,G&field=code_departement_ban&size=0": {
+"status": 200,
+"json": {
+"total": 1562205,
+"total_values": 102,
+"total_other": 0,
+"aggs": [
+{
+"total": 157896,
+"value": "75",
+"results": []
+},
+{
+"total": 63699,
+"value": "92",
+"results": []
+},
+{
+"total": 55015,
+"value": "59",
+"results": []
+},
+{
+"total": 45131,
+"value": "94",
+"results": []
+},
+{
+"total": 39336,
+"value": "93",
+"results": []
+},
+{
+"total": 37866,
+"value": "62",
+"results": []
+},
+{
+"total": 35909,
+"value": "69",
+"results": []
+},
+{
+"total": 35130,
+"value": "78",
+"results": []
+},
+{
+"total": 33963,
+"value": "76",
+"results": []
+},
+{
+"total": 27354,
+"value": "74",
+"results": []
+},
+{
+"total": 25834,
+"value": "38",
+"results": []
+},
+{
+"total": 25609,
+"value": "77",
+"results": []
+},
+{
+"total": 24602,
+"value": "95",
+"results": []
+},
+{
+"total": 23930,
+"value": "44",
+"results": []
+},
+{
+"total": 23840,
+"value": "91",
+"results": []
+},
+{
+"total": 23521,
+"value": "63",
+"results": []
+},
+{
+"total": 22101,
+"value": "14",
+"results": []
+},
+{
+"total": 21935,
+"value": "57",
+"results": []
+},
+{
+"total": 21639,
+"value": "67",
+"results": []
+},
+{
+"total": 21531,
+"value": "42",
+"results": []
+},
+{
+"total": 20295,
+"value": "29",
+"results": []
+},
+{
+"total": 20233,
+"value": "33",
+"results": []
+},
+{
+"total": 18075,
+"value": "73",
+"results": []
+},
+{
+"total": 17691,
+"value": "51",
+"results": []
+},
+{
+"total": 17450,
+"value": "06",
+"results": []
+},
+{
+"total": 17316,
+"value": "45",
+"results": []
+},
+{
+"total": 16967,
+"value": "54",
+"results": []
+},
+{
+"total": 16410,
+"value": "35",
+"results": []
+},
+{
+"total": 16404,
+"value": "60",
+"results": []
+},
+{
+"total": 16014,
+"value": "31",
+"results": []
+},
+{
+"total": 15931,
+"value": "13",
+"results": []
+},
+{
+"total": 15847,
+"value": "22",
+"results": []
+},
+{
+"total": 15660,
+"value": "71",
+"results": []
+},
+{
+"total": 15624,
+"value": "02",
+"results": []
+},
+{
+"total": 15247,
+"value": "49",
+"results": []
+},
+{
+"total": 15233,
+"value": "80",
+"results": []
+},
+{
+"total": 14620,
+"value": "68",
+"results": []
+},
+{
+"total": 14331,
+"value": "56",
+"results": []
+},
+{
+"total": 14249,
+"value": "21",
+"results": []
+},
+{
+"total": 14102,
+"value": "85",
+"results": []
+},
+{
+"total": 14018,
+"value": "17",
+"results": []
+},
+{
+"total": 13764,
+"value": "27",
+"results": []
+},
+{
+"total": 13579,
+"value": "03",
+"results": []
+},
+{
+"total": 12750,
+"value": "37",
+"results": []
+},
+{
+"total": 12360,
+"value": "84",
+"results": []
+},
+{
+"total": 12322,
+"value": "50",
+"results": []
+},
+{
+"total": 12311,
+"value": "01",
+"results": []
+},
+{
+"total": 12061,
+"value": "89",
+"results": []
+},
+{
+"total": 11330,
+"value": "87",
+"results": []
+},
+{
+"total": 11272,
+"value": "25",
+"results": []
+},
+{
+"total": 11226,
+"value": "28",
+"results": []
+},
+{
+"total": 11073,
+"value": "61",
+"results": []
+},
+{
+"total": 10111,
+"value": "64",
+"results": []
+},
+{
+"total": 10070,
+"value": "72",
+"results": []
+},
+{
+"total": 9882,
+"value": "05",
+"results": []
+},
+{
+"total": 9614,
+"value": "24",
+"results": []
+},
+{
+"total": 9535,
+"value": "19",
+"results": []
+},
+{
+"total": 9517,
+"value": "58",
+"results": []
+},
+{
+"total": 9456,
+"value": "83",
+"results": []
+},
+{
+"total": 9331,
+"value": "88",
+"results": []
+},
+{
+"total": 8761,
+"value": "18",
+"results": []
+},
+{
+"total": 8602,
+"value": "86",
+"results": []
+},
+{
+"total": 8580,
+"value": "07",
+"results": []
+},
+{
+"total": 8330,
+"value": "26",
+"results": []
+},
+{
+"total": 8144,
+"value": "41",
+"results": []
+},
+{
+"total": 8137,
+"value": "43",
+"results": []
+},
+{
+"total": 7693,
+"value": "34",
+"results": []
+},
+{
+"total": 7557,
+"value": "23",
+"results": []
+},
+{
+"total": 7546,
+"value": "16",
+"results": []
+},
+{
+"total": 7493,
+"value": "39",
+"results": []
+},
+{
+"total": 7464,
+"value": "12",
+"results": []
+},
+{
+"total": 7327,
+"value": "15",
+"results": []
+},
+{
+"total": 7322,
+"value": "10",
+"results": []
+},
+{
+"total": 7086,
+"value": "04",
+"results": []
+},
+{
+"total": 7059,
+"value": "08",
+"results": []
+},
+{
+"total": 6835,
+"value": "65",
+"results": []
+},
+{
+"total": 6811,
+"value": "36",
+"results": []
+},
+{
+"total": 6696,
+"value": "81",
+"results": []
+},
+{
+"total": 6119,
+"value": "47",
+"results": []
+},
+{
+"total": 6104,
+"value": "79",
+"results": []
+},
+{
+"total": 6073,
+"value": "40",
+"results": []
+},
+{
+"total": 5922,
+"value": "53",
+"results": []
+},
+{
+"total": 5492,
+"value": "30",
+"results": []
+},
+{
+"total": 5301,
+"value": "70",
+"results": []
+},
+{
+"total": 5233,
+"value": "66",
+"results": []
+},
+{
+"total": 5156,
+"value": "09",
+"results": []
+},
+{
+"total": 4674,
+"value": "52",
+"results": []
+},
+{
+"total": 4481,
+"value": "55",
+"results": []
+},
+{
+"total": 4332,
+"value": "46",
+"results": []
+},
+{
+"total": 4008,
+"value": "90",
+"results": []
+},
+{
+"total": 3269,
+"value": "82",
+"results": []
+},
+{
+"total": 3136,
+"value": "48",
+"results": []
+},
+{
+"total": 3074,
+"value": "32",
+"results": []
+},
+{
+"total": 2440,
+"value": "11",
+"results": []
+},
+{
+"total": 1224,
+"value": "2B",
+"results": []
+},
+{
+"total": 984,
+"value": "2A",
+"results": []
+},
+{
+"total": 146,
+"value": "972",
+"results": []
+},
+{
+"total": 43,
+"value": "974",
+"results": []
+},
+{
+"total": 27,
+"value": "971",
+"results": []
+},
+{
+"total": 10,
+"value": "973",
+"results": []
+},
+{
+"total": 5,
+"value": "976",
+"results": []
+},
+{
+"total": 3,
+"value": "988",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=1000&field=code_departement_ban&size=0": {
+"status": 200,
+"json": {
+"total": 16003705,
+"total_values": 104,
+"total_other": 0,
+"aggs": [
+{
+"total": 864677,
+"value": "75",
+"results": []
+},
+{
+"total": 612770,
+"value": "59",
+"results": []
+},
+{
+"total": 519296,
+"value": "69",
+"results": []
+},
+{
+"total": 503886,
+"value": "92",
+"results": []
+},
+{
+"total": 491709,
+"value": "13",
+"results": []
+},
+{
+"total": 419164,
+"value": "93",
+"results": []
+},
+{
+"total": 408698,
+"value": "94",
+"results": []
+},
+{
+"total": 402145,
+"value": "33",
+"results": []
+},
+{
+"total": 358172,
+"value": "44",
+"results": []
+},
+{
+"total": 354658,
+"value": "31",
+"results": []
+},
+{
+"total": 353510,
+"value": "76",
+"results": []
+},
+{
+"total": 345535,
+"value": "78",
+"results": []
+},
+{
+"total": 327449,
+"value": "62",
+"results": []
+},
+{
+"total": 306077,
+"value": "06",
+"results": []
+},
+{
+"total": 304767,
+"value": "91",
+"results": []
+},
+{
+"total": 290928,
+"value": "34",
+"results": []
+},
+{
+"total": 281573,
+"value": "77",
+"results": []
+},
+{
+"total": 272567,
+"value": "95",
+"results": []
+},
+{
+"total": 267783,
+"value": "83",
+"results": []
+},
+{
+"total": 256904,
+"value": "38",
+"results": []
+},
+{
+"total": 255536,
+"value": "57",
+"results": []
+},
+{
+"total": 250390,
+"value": "67",
+"results": []
+},
+{
+"total": 237845,
+"value": "35",
+"results": []
+},
+{
+"total": 205401,
+"value": "74",
+"results": []
+},
+{
+"total": 197744,
+"value": "51",
+"results": []
+},
+{
+"total": 188663,
+"value": "49",
+"results": []
+},
+{
+"total": 185945,
+"value": "14",
+"results": []
+},
+{
+"total": 184185,
+"value": "29",
+"results": []
+},
+{
+"total": 184151,
+"value": "54",
+"results": []
+},
+{
+"total": 183462,
+"value": "42",
+"results": []
+},
+{
+"total": 164324,
+"value": "37",
+"results": []
+},
+{
+"total": 162007,
+"value": "56",
+"results": []
+},
+{
+"total": 161879,
+"value": "30",
+"results": []
+},
+{
+"total": 159154,
+"value": "64",
+"results": []
+},
+{
+"total": 156248,
+"value": "60",
+"results": []
+},
+{
+"total": 155073,
+"value": "17",
+"results": []
+},
+{
+"total": 150751,
+"value": "45",
+"results": []
+},
+{
+"total": 145873,
+"value": "63",
+"results": []
+},
+{
+"total": 145586,
+"value": "68",
+"results": []
+},
+{
+"total": 134703,
+"value": "21",
+"results": []
+},
+{
+"total": 132163,
+"value": "85",
+"results": []
+},
+{
+"total": 131025,
+"value": "73",
+"results": []
+},
+{
+"total": 123079,
+"value": "01",
+"results": []
+},
+{
+"total": 121050,
+"value": "84",
+"results": []
+},
+{
+"total": 118465,
+"value": "27",
+"results": []
+},
+{
+"total": 118296,
+"value": "50",
+"results": []
+},
+{
+"total": 113998,
+"value": "80",
+"results": []
+},
+{
+"total": 112870,
+"value": "25",
+"results": []
+},
+{
+"total": 111702,
+"value": "66",
+"results": []
+},
+{
+"total": 110500,
+"value": "72",
+"results": []
+},
+{
+"total": 110038,
+"value": "22",
+"results": []
+},
+{
+"total": 103287,
+"value": "71",
+"results": []
+},
+{
+"total": 100962,
+"value": "02",
+"results": []
+},
+{
+"total": 97792,
+"value": "26",
+"results": []
+},
+{
+"total": 95740,
+"value": "87",
+"results": []
+},
+{
+"total": 95700,
+"value": "86",
+"results": []
+},
+{
+"total": 90918,
+"value": "28",
+"results": []
+},
+{
+"total": 87722,
+"value": "40",
+"results": []
+},
+{
+"total": 84678,
+"value": "11",
+"results": []
+},
+{
+"total": 77504,
+"value": "24",
+"results": []
+},
+{
+"total": 73554,
+"value": "03",
+"results": []
+},
+{
+"total": 72621,
+"value": "88",
+"results": []
+},
+{
+"total": 72259,
+"value": "81",
+"results": []
+},
+{
+"total": 70746,
+"value": "16",
+"results": []
+},
+{
+"total": 68926,
+"value": "18",
+"results": []
+},
+{
+"total": 67440,
+"value": "79",
+"results": []
+},
+{
+"total": 67284,
+"value": "89",
+"results": []
+},
+{
+"total": 66468,
+"value": "10",
+"results": []
+},
+{
+"total": 65292,
+"value": "47",
+"results": []
+},
+{
+"total": 61668,
+"value": "41",
+"results": []
+},
+{
+"total": 61227,
+"value": "08",
+"results": []
+},
+{
+"total": 59226,
+"value": "07",
+"results": []
+},
+{
+"total": 57391,
+"value": "61",
+"results": []
+},
+{
+"total": 55749,
+"value": "36",
+"results": []
+},
+{
+"total": 54249,
+"value": "53",
+"results": []
+},
+{
+"total": 52592,
+"value": "65",
+"results": []
+},
+{
+"total": 50735,
+"value": "12",
+"results": []
+},
+{
+"total": 50111,
+"value": "39",
+"results": []
+},
+{
+"total": 45948,
+"value": "82",
+"results": []
+},
+{
+"total": 45482,
+"value": "58",
+"results": []
+},
+{
+"total": 45032,
+"value": "19",
+"results": []
+},
+{
+"total": 42424,
+"value": "05",
+"results": []
+},
+{
+"total": 40295,
+"value": "04",
+"results": []
+},
+{
+"total": 39202,
+"value": "52",
+"results": []
+},
+{
+"total": 39168,
+"value": "43",
+"results": []
+},
+{
+"total": 37154,
+"value": "90",
+"results": []
+},
+{
+"total": 35934,
+"value": "70",
+"results": []
+},
+{
+"total": 34001,
+"value": "32",
+"results": []
+},
+{
+"total": 32778,
+"value": "55",
+"results": []
+},
+{
+"total": 32175,
+"value": "09",
+"results": []
+},
+{
+"total": 31388,
+"value": "46",
+"results": []
+},
+{
+"total": 27664,
+"value": "2A",
+"results": []
+},
+{
+"total": 26735,
+"value": "2B",
+"results": []
+},
+{
+"total": 24910,
+"value": "15",
+"results": []
+},
+{
+"total": 23112,
+"value": "23",
+"results": []
+},
+{
+"total": 11099,
+"value": "48",
+"results": []
+},
+{
+"total": 7100,
+"value": "972",
+"results": []
+},
+{
+"total": 915,
+"value": "974",
+"results": []
+},
+{
+"total": 647,
+"value": "971",
+"results": []
+},
+{
+"total": 104,
+"value": "973",
+"results": []
+},
+{
+"total": 38,
+"value": "976",
+"results": []
+},
+{
+"total": 22,
+"value": "988",
+"results": []
+},
+{
+"total": 4,
+"value": "978",
+"results": []
+},
+{
+"total": 2,
+"value": "975",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=1000&field=code_region_ban&metric=avg&metric_field=conso_5_usages_par_m2_ep&size=0": {
+"status": 200,
+"json": {
+"total": 16003705,
+"total_values": 19,
+"total_other": 0,
+"aggs": [
+{
+"total": 3400867,
+"value": "11",
+"results": [],
+"metric": 221.96092209842894
+},
+{
+"total": 38,
+"value": "06",
+"results": [],
+"metric": 220.85526315789474
+},
+{
+"total": 586825,
+"value": "27",
+"results": [],
+"metric": 218.7388980725643
+},
+{
+"total": 1859690,
+"value": "84",
+"results": [],
+"metric": 214.7906437770548
+},
+{
+"total": 1311427,
+"value": "32",
+"results": [],
+"metric": 213.04260792978414
+},
+{
+"total": 833607,
+"value": "28",
+"results": [],
+"metric": 210.97112902993598
+},
+{
+"total": 592336,
+"value": "24",
+"results": [],
+"metric": 210.599069227964
+},
+{
+"total": 1305703,
+"value": "44",
+"results": [],
+"metric": 197.32689476852568
+},
+{
+"total": 28,
+"value": "00",
+"results": [],
+"metric": 195.81071428571428
+},
+{
+"total": 694075,
+"value": "53",
+"results": [],
+"metric": 195.20932843455083
+},
+{
+"total": 1344660,
+"value": "75",
+"results": [],
+"metric": 194.53463944621032
+},
+{
+"total": 843747,
+"value": "52",
+"results": [],
+"metric": 193.75854264150226
+},
+{
+"total": 104,
+"value": "03",
+"results": [],
+"metric": 190.9942307692308
+},
+{
+"total": 1269338,
+"value": "93",
+"results": [],
+"metric": 178.6002331973803
+},
+{
+"total": 915,
+"value": "04",
+"results": [],
+"metric": 175.95551912568305
+},
+{
+"total": 1334042,
+"value": "76",
+"results": [],
+"metric": 174.57704641286952
+},
+{
+"total": 647,
+"value": "01",
+"results": [],
+"metric": 164.08006182380217
+},
+{
+"total": 7100,
+"value": "02",
+"results": [],
+"metric": 151.78078873239437
+},
+{
+"total": 54399,
+"value": "94",
+"results": [],
+"metric": 146.41358321997131
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=1000&field=code_region_ban&size=0": {
+"status": 200,
+"json": {
+"total": 16003705,
+"total_values": 19,
+"total_other": 0,
+"aggs": [
+{
+"total": 3400867,
+"value": "11",
+"results": []
+},
+{
+"total": 1859690,
+"value": "84",
+"results": []
+},
+{
+"total": 1344660,
+"value": "75",
+"results": []
+},
+{
+"total": 1334042,
+"value": "76",
+"results": []
+},
+{
+"total": 1311427,
+"value": "32",
+"results": []
+},
+{
+"total": 1305703,
+"value": "44",
+"results": []
+},
+{
+"total": 1269338,
+"value": "93",
+"results": []
+},
+{
+"total": 843747,
+"value": "52",
+"results": []
+},
+{
+"total": 833607,
+"value": "28",
+"results": []
+},
+{
+"total": 694075,
+"value": "53",
+"results": []
+},
+{
+"total": 592336,
+"value": "24",
+"results": []
+},
+{
+"total": 586825,
+"value": "27",
+"results": []
+},
+{
+"total": 54399,
+"value": "94",
+"results": []
+},
+{
+"total": 7100,
+"value": "02",
+"results": []
+},
+{
+"total": 915,
+"value": "04",
+"results": []
+},
+{
+"total": 647,
+"value": "01",
+"results": []
+},
+{
+"total": 104,
+"value": "03",
+"results": []
+},
+{
+"total": 38,
+"value": "06",
+"results": []
+},
+{
+"total": 28,
+"value": "00",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=17&code_region_ban_in=11,84,75,76,32,44,93,52,28,53,24,27,94,02,04,01,03&etiquette_dpe_in=A,B&field=code_region_ban&size=0": {
+"status": 200,
+"json": {
+"total": 1006752,
+"total_values": 17,
+"total_other": 0,
+"aggs": [
+{
+"total": 191418,
+"value": "76",
+"results": []
+},
+{
+"total": 186089,
+"value": "93",
+"results": []
+},
+{
+"total": 111137,
+"value": "11",
+"results": []
+},
+{
+"total": 104006,
+"value": "75",
+"results": []
+},
+{
+"total": 93520,
+"value": "84",
+"results": []
+},
+{
+"total": 63917,
+"value": "44",
+"results": []
+},
+{
+"total": 61100,
+"value": "52",
+"results": []
+},
+{
+"total": 45475,
+"value": "53",
+"results": []
+},
+{
+"total": 41022,
+"value": "28",
+"results": []
+},
+{
+"total": 38040,
+"value": "32",
+"results": []
+},
+{
+"total": 28681,
+"value": "27",
+"results": []
+},
+{
+"total": 26275,
+"value": "24",
+"results": []
+},
+{
+"total": 15300,
+"value": "94",
+"results": []
+},
+{
+"total": 666,
+"value": "02",
+"results": []
+},
+{
+"total": 60,
+"value": "01",
+"results": []
+},
+{
+"total": 37,
+"value": "04",
+"results": []
+},
+{
+"total": 9,
+"value": "03",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=20&code_departement_ban_eq=29&field=type_energie_n1&size=0": {
+"status": 200,
+"json": {
+"total": 184185,
+"total_values": 13,
+"total_other": 0,
+"aggs": [
+{
+"total": 87987,
+"value": "Électricité",
+"results": []
+},
+{
+"total": 64568,
+"value": "Gaz naturel",
+"results": []
+},
+{
+"total": 17152,
+"value": "Fioul domestique",
+"results": []
+},
+{
+"total": 6950,
+"value": "Réseau de Chauffage urbain",
+"results": []
+},
+{
+"total": 4353,
+"value": "Bois – Bûches",
+"results": []
+},
+{
+"total": 1810,
+"value": "Bois – Granulés (pellets) ou briquettes",
+"results": []
+},
+{
+"total": 988,
+"value": "GPL",
+"results": []
+},
+{
+"total": 248,
+"value": "Propane",
+"results": []
+},
+{
+"total": 72,
+"value": "Bois – Plaquettes d’industrie",
+"results": []
+},
+{
+"total": 21,
+"value": "Charbon",
+"results": []
+},
+{
+"total": 15,
+"value": "Bois – Plaquettes forestières",
+"results": []
+},
+{
+"total": 14,
+"value": "Électricité d'origine renouvelable utilisée dans le bâtiment",
+"results": []
+},
+{
+"total": 7,
+"value": "Butane",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=200&code_departement_ban_eq=33&code_insee_ban_in=33063,33522,33318,33281,33550,33039,33119,33249,33243,33529,33192,33069,33162,33167,33449,33009,33075,33056,33199,33003,33005,33200,33236,33366,33122,33214,33227,33032,33312,33019,33138,33051,33096,33519,33013,33422,33011,33433,33058,33527,33229,33080,33352,33273,33284,33238,33240,33036,33402,33090,33314,33514,33203,33140,33108,33376,33498,33042,33324,33483,33004,33104,33165,33478,33207,33555,33322,33397,33097,33029,33393,33099,33539,33234,33424,33213,33256,33081,33262,33473,33540,33363,33268,33544,33293,33389,33327,33535,33447,33067,33466,33179,33018,33085,33330,33114,33533,33333,33143,33065,33554,33198,33381,33506,33159,33193,33226,33248,33448,33274,33492,33334,33337,33496,33001,33435,33012,33434,33490,33123,33225,33154,33177,33030,33109,33015,33349,33341,33394,33233,33474,33438,33022,33501,33219,33071,33415,33185,33106,33120,33413,33417,33125,33437,33187,33484,33084,33523,33395,33077,33289,33297,33195,33073,33441,33118,33355,33040,33382,33049,33037,33485,33095,33146,33315,33164,33543,33307,33111,33380,33480,33052,33047,33174,33505,33351,33477,33547,33220,33261,33321,33202,33517,33350,33487,33311,33548,33348,33046,33425,33541,33463,33259,33525,33357,33439,33218,33454,33339,33100&etiquette_dpe_in=F,G&field=code_insee_ban&size=0": {
+"status": 200,
+"json": {
+"total": 18356,
+"total_values": 200,
+"total_other": 0,
+"aggs": [
+{
+"total": 7145,
+"value": "33063",
+"results": []
+},
+{
+"total": 724,
+"value": "33522",
+"results": []
+},
+{
+"total": 591,
+"value": "33281",
+"results": []
+},
+{
+"total": 576,
+"value": "33318",
+"results": []
+},
+{
+"total": 568,
+"value": "33249",
+"results": []
+},
+{
+"total": 519,
+"value": "33009",
+"results": []
+},
+{
+"total": 447,
+"value": "33243",
+"results": []
+},
+{
+"total": 388,
+"value": "33119",
+"results": []
+},
+{
+"total": 327,
+"value": "33529",
+"results": []
+},
+{
+"total": 322,
+"value": "33236",
+"results": []
+},
+{
+"total": 321,
+"value": "33039",
+"results": []
+},
+{
+"total": 303,
+"value": "33192",
+"results": []
+},
+{
+"total": 276,
+"value": "33069",
+"results": []
+},
+{
+"total": 231,
+"value": "33550",
+"results": []
+},
+{
+"total": 203,
+"value": "33005",
+"results": []
+},
+{
+"total": 201,
+"value": "33449",
+"results": []
+},
+{
+"total": 165,
+"value": "33214",
+"results": []
+},
+{
+"total": 140,
+"value": "33514",
+"results": []
+},
+{
+"total": 133,
+"value": "33162",
+"results": []
+},
+{
+"total": 132,
+"value": "33199",
+"results": []
+},
+{
+"total": 127,
+"value": "33138",
+"results": []
+},
+{
+"total": 117,
+"value": "33011",
+"results": []
+},
+{
+"total": 89,
+"value": "33058",
+"results": []
+},
+{
+"total": 87,
+"value": "33402",
+"results": []
+},
+{
+"total": 86,
+"value": "33167",
+"results": []
+},
+{
+"total": 84,
+"value": "33366",
+"results": []
+},
+{
+"total": 81,
+"value": "33003",
+"results": []
+},
+{
+"total": 81,
+"value": "33227",
+"results": []
+},
+{
+"total": 80,
+"value": "33108",
+"results": []
+},
+{
+"total": 79,
+"value": "33314",
+"results": []
+},
+{
+"total": 79,
+"value": "33352",
+"results": []
+},
+{
+"total": 74,
+"value": "33240",
+"results": []
+},
+{
+"total": 67,
+"value": "33036",
+"results": []
+},
+{
+"total": 65,
+"value": "33056",
+"results": []
+},
+{
+"total": 64,
+"value": "33097",
+"results": []
+},
+{
+"total": 62,
+"value": "33324",
+"results": []
+},
+{
+"total": 58,
+"value": "33203",
+"results": []
+},
+{
+"total": 57,
+"value": "33075",
+"results": []
+},
+{
+"total": 54,
+"value": "33433",
+"results": []
+},
+{
+"total": 51,
+"value": "33051",
+"results": []
+},
+{
+"total": 51,
+"value": "33229",
+"results": []
+},
+{
+"total": 49,
+"value": "33122",
+"results": []
+},
+{
+"total": 47,
+"value": "33337",
+"results": []
+},
+{
+"total": 44,
+"value": "33478",
+"results": []
+},
+{
+"total": 44,
+"value": "33540",
+"results": []
+},
+{
+"total": 44,
+"value": "33544",
+"results": []
+},
+{
+"total": 42,
+"value": "33394",
+"results": []
+},
+{
+"total": 42,
+"value": "33395",
+"results": []
+},
+{
+"total": 41,
+"value": "33096",
+"results": []
+},
+{
+"total": 41,
+"value": "33498",
+"results": []
+},
+{
+"total": 39,
+"value": "33019",
+"results": []
+},
+{
+"total": 39,
+"value": "33104",
+"results": []
+},
+{
+"total": 37,
+"value": "33447",
+"results": []
+},
+{
+"total": 36,
+"value": "33067",
+"results": []
+},
+{
+"total": 36,
+"value": "33393",
+"results": []
+},
+{
+"total": 35,
+"value": "33226",
+"results": []
+},
+{
+"total": 34,
+"value": "33081",
+"results": []
+},
+{
+"total": 33,
+"value": "33238",
+"results": []
+},
+{
+"total": 33,
+"value": "33389",
+"results": []
+},
+{
+"total": 32,
+"value": "33042",
+"results": []
+},
+{
+"total": 32,
+"value": "33080",
+"results": []
+},
+{
+"total": 32,
+"value": "33284",
+"results": []
+},
+{
+"total": 32,
+"value": "33333",
+"results": []
+},
+{
+"total": 32,
+"value": "33437",
+"results": []
+},
+{
+"total": 31,
+"value": "33001",
+"results": []
+},
+{
+"total": 31,
+"value": "33154",
+"results": []
+},
+{
+"total": 31,
+"value": "33213",
+"results": []
+},
+{
+"total": 30,
+"value": "33030",
+"results": []
+},
+{
+"total": 30,
+"value": "33032",
+"results": []
+},
+{
+"total": 30,
+"value": "33234",
+"results": []
+},
+{
+"total": 30,
+"value": "33527",
+"results": []
+},
+{
+"total": 29,
+"value": "33382",
+"results": []
+},
+{
+"total": 28,
+"value": "33268",
+"results": []
+},
+{
+"total": 27,
+"value": "33262",
+"results": []
+},
+{
+"total": 27,
+"value": "33327",
+"results": []
+},
+{
+"total": 26,
+"value": "33380",
+"results": []
+},
+{
+"total": 26,
+"value": "33424",
+"results": []
+},
+{
+"total": 25,
+"value": "33140",
+"results": []
+},
+{
+"total": 25,
+"value": "33312",
+"results": []
+},
+{
+"total": 24,
+"value": "33018",
+"results": []
+},
+{
+"total": 24,
+"value": "33490",
+"results": []
+},
+{
+"total": 24,
+"value": "33539",
+"results": []
+},
+{
+"total": 23,
+"value": "33004",
+"results": []
+},
+{
+"total": 23,
+"value": "33261",
+"results": []
+},
+{
+"total": 23,
+"value": "33485",
+"results": []
+},
+{
+"total": 23,
+"value": "33519",
+"results": []
+},
+{
+"total": 22,
+"value": "33015",
+"results": []
+},
+{
+"total": 22,
+"value": "33159",
+"results": []
+},
+{
+"total": 22,
+"value": "33198",
+"results": []
+},
+{
+"total": 22,
+"value": "33200",
+"results": []
+},
+{
+"total": 22,
+"value": "33207",
+"results": []
+},
+{
+"total": 22,
+"value": "33351",
+"results": []
+},
+{
+"total": 21,
+"value": "33040",
+"results": []
+},
+{
+"total": 21,
+"value": "33085",
+"results": []
+},
+{
+"total": 21,
+"value": "33143",
+"results": []
+},
+{
+"total": 21,
+"value": "33177",
+"results": []
+},
+{
+"total": 21,
+"value": "33525",
+"results": []
+},
+{
+"total": 20,
+"value": "33052",
+"results": []
+},
+{
+"total": 20,
+"value": "33100",
+"results": []
+},
+{
+"total": 20,
+"value": "33535",
+"results": []
+},
+{
+"total": 19,
+"value": "33065",
+"results": []
+},
+{
+"total": 19,
+"value": "33125",
+"results": []
+},
+{
+"total": 19,
+"value": "33179",
+"results": []
+},
+{
+"total": 19,
+"value": "33193",
+"results": []
+},
+{
+"total": 19,
+"value": "33334",
+"results": []
+},
+{
+"total": 19,
+"value": "33348",
+"results": []
+},
+{
+"total": 19,
+"value": "33448",
+"results": []
+},
+{
+"total": 19,
+"value": "33506",
+"results": []
+},
+{
+"total": 18,
+"value": "33029",
+"results": []
+},
+{
+"total": 18,
+"value": "33084",
+"results": []
+},
+{
+"total": 18,
+"value": "33397",
+"results": []
+},
+{
+"total": 18,
+"value": "33422",
+"results": []
+},
+{
+"total": 18,
+"value": "33435",
+"results": []
+},
+{
+"total": 17,
+"value": "33165",
+"results": []
+},
+{
+"total": 17,
+"value": "33289",
+"results": []
+},
+{
+"total": 17,
+"value": "33297",
+"results": []
+},
+{
+"total": 17,
+"value": "33349",
+"results": []
+},
+{
+"total": 17,
+"value": "33376",
+"results": []
+},
+{
+"total": 17,
+"value": "33413",
+"results": []
+},
+{
+"total": 17,
+"value": "33483",
+"results": []
+},
+{
+"total": 16,
+"value": "33106",
+"results": []
+},
+{
+"total": 16,
+"value": "33174",
+"results": []
+},
+{
+"total": 16,
+"value": "33256",
+"results": []
+},
+{
+"total": 16,
+"value": "33293",
+"results": []
+},
+{
+"total": 16,
+"value": "33311",
+"results": []
+},
+{
+"total": 16,
+"value": "33322",
+"results": []
+},
+{
+"total": 16,
+"value": "33543",
+"results": []
+},
+{
+"total": 16,
+"value": "33547",
+"results": []
+},
+{
+"total": 15,
+"value": "33022",
+"results": []
+},
+{
+"total": 15,
+"value": "33037",
+"results": []
+},
+{
+"total": 15,
+"value": "33073",
+"results": []
+},
+{
+"total": 15,
+"value": "33077",
+"results": []
+},
+{
+"total": 15,
+"value": "33120",
+"results": []
+},
+{
+"total": 15,
+"value": "33195",
+"results": []
+},
+{
+"total": 15,
+"value": "33248",
+"results": []
+},
+{
+"total": 15,
+"value": "33307",
+"results": []
+},
+{
+"total": 15,
+"value": "33438",
+"results": []
+},
+{
+"total": 15,
+"value": "33473",
+"results": []
+},
+{
+"total": 15,
+"value": "33505",
+"results": []
+},
+{
+"total": 15,
+"value": "33533",
+"results": []
+},
+{
+"total": 15,
+"value": "33548",
+"results": []
+},
+{
+"total": 15,
+"value": "33554",
+"results": []
+},
+{
+"total": 14,
+"value": "33013",
+"results": []
+},
+{
+"total": 14,
+"value": "33099",
+"results": []
+},
+{
+"total": 14,
+"value": "33146",
+"results": []
+},
+{
+"total": 14,
+"value": "33273",
+"results": []
+},
+{
+"total": 14,
+"value": "33355",
+"results": []
+},
+{
+"total": 14,
+"value": "33466",
+"results": []
+},
+{
+"total": 13,
+"value": "33202",
+"results": []
+},
+{
+"total": 13,
+"value": "33220",
+"results": []
+},
+{
+"total": 13,
+"value": "33484",
+"results": []
+},
+{
+"total": 13,
+"value": "33487",
+"results": []
+},
+{
+"total": 13,
+"value": "33501",
+"results": []
+},
+{
+"total": 13,
+"value": "33523",
+"results": []
+},
+{
+"total": 13,
+"value": "33541",
+"results": []
+},
+{
+"total": 12,
+"value": "33259",
+"results": []
+},
+{
+"total": 12,
+"value": "33315",
+"results": []
+},
+{
+"total": 12,
+"value": "33330",
+"results": []
+},
+{
+"total": 12,
+"value": "33363",
+"results": []
+},
+{
+"total": 12,
+"value": "33415",
+"results": []
+},
+{
+"total": 12,
+"value": "33434",
+"results": []
+},
+{
+"total": 12,
+"value": "33463",
+"results": []
+},
+{
+"total": 11,
+"value": "33071",
+"results": []
+},
+{
+"total": 11,
+"value": "33233",
+"results": []
+},
+{
+"total": 11,
+"value": "33339",
+"results": []
+},
+{
+"total": 11,
+"value": "33350",
+"results": []
+},
+{
+"total": 11,
+"value": "33480",
+"results": []
+},
+{
+"total": 11,
+"value": "33496",
+"results": []
+},
+{
+"total": 10,
+"value": "33012",
+"results": []
+},
+{
+"total": 10,
+"value": "33047",
+"results": []
+},
+{
+"total": 10,
+"value": "33049",
+"results": []
+},
+{
+"total": 10,
+"value": "33095",
+"results": []
+},
+{
+"total": 10,
+"value": "33123",
+"results": []
+},
+{
+"total": 10,
+"value": "33185",
+"results": []
+},
+{
+"total": 10,
+"value": "33218",
+"results": []
+},
+{
+"total": 10,
+"value": "33219",
+"results": []
+},
+{
+"total": 10,
+"value": "33225",
+"results": []
+},
+{
+"total": 10,
+"value": "33381",
+"results": []
+},
+{
+"total": 10,
+"value": "33492",
+"results": []
+},
+{
+"total": 10,
+"value": "33555",
+"results": []
+},
+{
+"total": 9,
+"value": "33109",
+"results": []
+},
+{
+"total": 9,
+"value": "33118",
+"results": []
+},
+{
+"total": 9,
+"value": "33274",
+"results": []
+},
+{
+"total": 9,
+"value": "33341",
+"results": []
+},
+{
+"total": 9,
+"value": "33454",
+"results": []
+},
+{
+"total": 8,
+"value": "33321",
+"results": []
+},
+{
+"total": 8,
+"value": "33357",
+"results": []
+},
+{
+"total": 8,
+"value": "33417",
+"results": []
+},
+{
+"total": 8,
+"value": "33441",
+"results": []
+},
+{
+"total": 7,
+"value": "33090",
+"results": []
+},
+{
+"total": 7,
+"value": "33114",
+"results": []
+},
+{
+"total": 7,
+"value": "33439",
+"results": []
+},
+{
+"total": 7,
+"value": "33517",
+"results": []
+},
+{
+"total": 6,
+"value": "33046",
+"results": []
+},
+{
+"total": 6,
+"value": "33111",
+"results": []
+},
+{
+"total": 6,
+"value": "33187",
+"results": []
+},
+{
+"total": 6,
+"value": "33474",
+"results": []
+},
+{
+"total": 5,
+"value": "33164",
+"results": []
+},
+{
+"total": 5,
+"value": "33425",
+"results": []
+},
+{
+"total": 5,
+"value": "33477",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=200&code_departement_ban_eq=33&field=code_insee_ban&size=0": {
+"status": 200,
+"json": {
+"total": 402145,
+"total_values": 535,
+"total_other": 17741,
+"aggs": [
+{
+"total": 113857,
+"value": "33063",
+"results": []
+},
+{
+"total": 20347,
+"value": "33522",
+"results": []
+},
+{
+"total": 19830,
+"value": "33318",
+"results": []
+},
+{
+"total": 19558,
+"value": "33281",
+"results": []
+},
+{
+"total": 10871,
+"value": "33550",
+"results": []
+},
+{
+"total": 9336,
+"value": "33039",
+"results": []
+},
+{
+"total": 8663,
+"value": "33119",
+"results": []
+},
+{
+"total": 8296,
+"value": "33249",
+"results": []
+},
+{
+"total": 7630,
+"value": "33243",
+"results": []
+},
+{
+"total": 6988,
+"value": "33529",
+"results": []
+},
+{
+"total": 6941,
+"value": "33192",
+"results": []
+},
+{
+"total": 6424,
+"value": "33069",
+"results": []
+},
+{
+"total": 6350,
+"value": "33162",
+"results": []
+},
+{
+"total": 6061,
+"value": "33167",
+"results": []
+},
+{
+"total": 5579,
+"value": "33449",
+"results": []
+},
+{
+"total": 5502,
+"value": "33009",
+"results": []
+},
+{
+"total": 4899,
+"value": "33075",
+"results": []
+},
+{
+"total": 4397,
+"value": "33056",
+"results": []
+},
+{
+"total": 3938,
+"value": "33199",
+"results": []
+},
+{
+"total": 3079,
+"value": "33003",
+"results": []
+},
+{
+"total": 2872,
+"value": "33005",
+"results": []
+},
+{
+"total": 2832,
+"value": "33200",
+"results": []
+},
+{
+"total": 2543,
+"value": "33236",
+"results": []
+},
+{
+"total": 2493,
+"value": "33366",
+"results": []
+},
+{
+"total": 2108,
+"value": "33122",
+"results": []
+},
+{
+"total": 2076,
+"value": "33214",
+"results": []
+},
+{
+"total": 2054,
+"value": "33227",
+"results": []
+},
+{
+"total": 1919,
+"value": "33032",
+"results": []
+},
+{
+"total": 1838,
+"value": "33312",
+"results": []
+},
+{
+"total": 1761,
+"value": "33019",
+"results": []
+},
+{
+"total": 1745,
+"value": "33138",
+"results": []
+},
+{
+"total": 1669,
+"value": "33051",
+"results": []
+},
+{
+"total": 1633,
+"value": "33096",
+"results": []
+},
+{
+"total": 1536,
+"value": "33519",
+"results": []
+},
+{
+"total": 1502,
+"value": "33013",
+"results": []
+},
+{
+"total": 1490,
+"value": "33422",
+"results": []
+},
+{
+"total": 1458,
+"value": "33011",
+"results": []
+},
+{
+"total": 1422,
+"value": "33433",
+"results": []
+},
+{
+"total": 1397,
+"value": "33058",
+"results": []
+},
+{
+"total": 1357,
+"value": "33527",
+"results": []
+},
+{
+"total": 1348,
+"value": "33229",
+"results": []
+},
+{
+"total": 1264,
+"value": "33080",
+"results": []
+},
+{
+"total": 1262,
+"value": "33352",
+"results": []
+},
+{
+"total": 1241,
+"value": "33273",
+"results": []
+},
+{
+"total": 1224,
+"value": "33284",
+"results": []
+},
+{
+"total": 1223,
+"value": "33238",
+"results": []
+},
+{
+"total": 1177,
+"value": "33240",
+"results": []
+},
+{
+"total": 1106,
+"value": "33036",
+"results": []
+},
+{
+"total": 1088,
+"value": "33402",
+"results": []
+},
+{
+"total": 1070,
+"value": "33090",
+"results": []
+},
+{
+"total": 1030,
+"value": "33314",
+"results": []
+},
+{
+"total": 1014,
+"value": "33514",
+"results": []
+},
+{
+"total": 984,
+"value": "33203",
+"results": []
+},
+{
+"total": 970,
+"value": "33140",
+"results": []
+},
+{
+"total": 958,
+"value": "33108",
+"results": []
+},
+{
+"total": 949,
+"value": "33376",
+"results": []
+},
+{
+"total": 909,
+"value": "33498",
+"results": []
+},
+{
+"total": 874,
+"value": "33042",
+"results": []
+},
+{
+"total": 872,
+"value": "33324",
+"results": []
+},
+{
+"total": 756,
+"value": "33483",
+"results": []
+},
+{
+"total": 748,
+"value": "33004",
+"results": []
+},
+{
+"total": 728,
+"value": "33104",
+"results": []
+},
+{
+"total": 721,
+"value": "33165",
+"results": []
+},
+{
+"total": 717,
+"value": "33478",
+"results": []
+},
+{
+"total": 693,
+"value": "33207",
+"results": []
+},
+{
+"total": 693,
+"value": "33555",
+"results": []
+},
+{
+"total": 692,
+"value": "33322",
+"results": []
+},
+{
+"total": 676,
+"value": "33397",
+"results": []
+},
+{
+"total": 671,
+"value": "33097",
+"results": []
+},
+{
+"total": 667,
+"value": "33029",
+"results": []
+},
+{
+"total": 661,
+"value": "33393",
+"results": []
+},
+{
+"total": 622,
+"value": "33099",
+"results": []
+},
+{
+"total": 608,
+"value": "33539",
+"results": []
+},
+{
+"total": 604,
+"value": "33234",
+"results": []
+},
+{
+"total": 585,
+"value": "33424",
+"results": []
+},
+{
+"total": 575,
+"value": "33213",
+"results": []
+},
+{
+"total": 570,
+"value": "33256",
+"results": []
+},
+{
+"total": 566,
+"value": "33081",
+"results": []
+},
+{
+"total": 541,
+"value": "33262",
+"results": []
+},
+{
+"total": 521,
+"value": "33473",
+"results": []
+},
+{
+"total": 516,
+"value": "33540",
+"results": []
+},
+{
+"total": 507,
+"value": "33363",
+"results": []
+},
+{
+"total": 505,
+"value": "33268",
+"results": []
+},
+{
+"total": 504,
+"value": "33544",
+"results": []
+},
+{
+"total": 500,
+"value": "33293",
+"results": []
+},
+{
+"total": 500,
+"value": "33389",
+"results": []
+},
+{
+"total": 493,
+"value": "33327",
+"results": []
+},
+{
+"total": 488,
+"value": "33535",
+"results": []
+},
+{
+"total": 483,
+"value": "33447",
+"results": []
+},
+{
+"total": 482,
+"value": "33067",
+"results": []
+},
+{
+"total": 468,
+"value": "33466",
+"results": []
+},
+{
+"total": 466,
+"value": "33179",
+"results": []
+},
+{
+"total": 452,
+"value": "33018",
+"results": []
+},
+{
+"total": 437,
+"value": "33085",
+"results": []
+},
+{
+"total": 436,
+"value": "33330",
+"results": []
+},
+{
+"total": 425,
+"value": "33114",
+"results": []
+},
+{
+"total": 420,
+"value": "33533",
+"results": []
+},
+{
+"total": 412,
+"value": "33333",
+"results": []
+},
+{
+"total": 410,
+"value": "33143",
+"results": []
+},
+{
+"total": 404,
+"value": "33065",
+"results": []
+},
+{
+"total": 403,
+"value": "33554",
+"results": []
+},
+{
+"total": 395,
+"value": "33198",
+"results": []
+},
+{
+"total": 391,
+"value": "33381",
+"results": []
+},
+{
+"total": 391,
+"value": "33506",
+"results": []
+},
+{
+"total": 382,
+"value": "33159",
+"results": []
+},
+{
+"total": 373,
+"value": "33193",
+"results": []
+},
+{
+"total": 372,
+"value": "33226",
+"results": []
+},
+{
+"total": 371,
+"value": "33248",
+"results": []
+},
+{
+"total": 368,
+"value": "33448",
+"results": []
+},
+{
+"total": 357,
+"value": "33274",
+"results": []
+},
+{
+"total": 349,
+"value": "33492",
+"results": []
+},
+{
+"total": 347,
+"value": "33334",
+"results": []
+},
+{
+"total": 339,
+"value": "33337",
+"results": []
+},
+{
+"total": 335,
+"value": "33496",
+"results": []
+},
+{
+"total": 333,
+"value": "33001",
+"results": []
+},
+{
+"total": 322,
+"value": "33435",
+"results": []
+},
+{
+"total": 320,
+"value": "33012",
+"results": []
+},
+{
+"total": 319,
+"value": "33434",
+"results": []
+},
+{
+"total": 319,
+"value": "33490",
+"results": []
+},
+{
+"total": 316,
+"value": "33123",
+"results": []
+},
+{
+"total": 304,
+"value": "33225",
+"results": []
+},
+{
+"total": 299,
+"value": "33154",
+"results": []
+},
+{
+"total": 297,
+"value": "33177",
+"results": []
+},
+{
+"total": 293,
+"value": "33030",
+"results": []
+},
+{
+"total": 288,
+"value": "33109",
+"results": []
+},
+{
+"total": 286,
+"value": "33015",
+"results": []
+},
+{
+"total": 285,
+"value": "33349",
+"results": []
+},
+{
+"total": 277,
+"value": "33341",
+"results": []
+},
+{
+"total": 277,
+"value": "33394",
+"results": []
+},
+{
+"total": 276,
+"value": "33233",
+"results": []
+},
+{
+"total": 265,
+"value": "33474",
+"results": []
+},
+{
+"total": 264,
+"value": "33438",
+"results": []
+},
+{
+"total": 263,
+"value": "33022",
+"results": []
+},
+{
+"total": 261,
+"value": "33501",
+"results": []
+},
+{
+"total": 259,
+"value": "33219",
+"results": []
+},
+{
+"total": 253,
+"value": "33071",
+"results": []
+},
+{
+"total": 253,
+"value": "33415",
+"results": []
+},
+{
+"total": 250,
+"value": "33185",
+"results": []
+},
+{
+"total": 249,
+"value": "33106",
+"results": []
+},
+{
+"total": 249,
+"value": "33120",
+"results": []
+},
+{
+"total": 247,
+"value": "33413",
+"results": []
+},
+{
+"total": 246,
+"value": "33417",
+"results": []
+},
+{
+"total": 244,
+"value": "33125",
+"results": []
+},
+{
+"total": 243,
+"value": "33437",
+"results": []
+},
+{
+"total": 241,
+"value": "33187",
+"results": []
+},
+{
+"total": 240,
+"value": "33484",
+"results": []
+},
+{
+"total": 239,
+"value": "33084",
+"results": []
+},
+{
+"total": 238,
+"value": "33523",
+"results": []
+},
+{
+"total": 237,
+"value": "33395",
+"results": []
+},
+{
+"total": 236,
+"value": "33077",
+"results": []
+},
+{
+"total": 232,
+"value": "33289",
+"results": []
+},
+{
+"total": 232,
+"value": "33297",
+"results": []
+},
+{
+"total": 229,
+"value": "33195",
+"results": []
+},
+{
+"total": 228,
+"value": "33073",
+"results": []
+},
+{
+"total": 223,
+"value": "33441",
+"results": []
+},
+{
+"total": 222,
+"value": "33118",
+"results": []
+},
+{
+"total": 222,
+"value": "33355",
+"results": []
+},
+{
+"total": 219,
+"value": "33040",
+"results": []
+},
+{
+"total": 218,
+"value": "33382",
+"results": []
+},
+{
+"total": 217,
+"value": "33049",
+"results": []
+},
+{
+"total": 216,
+"value": "33037",
+"results": []
+},
+{
+"total": 216,
+"value": "33485",
+"results": []
+},
+{
+"total": 214,
+"value": "33095",
+"results": []
+},
+{
+"total": 213,
+"value": "33146",
+"results": []
+},
+{
+"total": 211,
+"value": "33315",
+"results": []
+},
+{
+"total": 210,
+"value": "33164",
+"results": []
+},
+{
+"total": 210,
+"value": "33543",
+"results": []
+},
+{
+"total": 209,
+"value": "33307",
+"results": []
+},
+{
+"total": 208,
+"value": "33111",
+"results": []
+},
+{
+"total": 208,
+"value": "33380",
+"results": []
+},
+{
+"total": 206,
+"value": "33480",
+"results": []
+},
+{
+"total": 205,
+"value": "33052",
+"results": []
+},
+{
+"total": 201,
+"value": "33047",
+"results": []
+},
+{
+"total": 201,
+"value": "33174",
+"results": []
+},
+{
+"total": 201,
+"value": "33505",
+"results": []
+},
+{
+"total": 197,
+"value": "33351",
+"results": []
+},
+{
+"total": 196,
+"value": "33477",
+"results": []
+},
+{
+"total": 196,
+"value": "33547",
+"results": []
+},
+{
+"total": 190,
+"value": "33220",
+"results": []
+},
+{
+"total": 186,
+"value": "33261",
+"results": []
+},
+{
+"total": 186,
+"value": "33321",
+"results": []
+},
+{
+"total": 184,
+"value": "33202",
+"results": []
+},
+{
+"total": 183,
+"value": "33517",
+"results": []
+},
+{
+"total": 182,
+"value": "33350",
+"results": []
+},
+{
+"total": 182,
+"value": "33487",
+"results": []
+},
+{
+"total": 174,
+"value": "33311",
+"results": []
+},
+{
+"total": 174,
+"value": "33548",
+"results": []
+},
+{
+"total": 172,
+"value": "33348",
+"results": []
+},
+{
+"total": 170,
+"value": "33046",
+"results": []
+},
+{
+"total": 169,
+"value": "33425",
+"results": []
+},
+{
+"total": 169,
+"value": "33541",
+"results": []
+},
+{
+"total": 162,
+"value": "33463",
+"results": []
+},
+{
+"total": 161,
+"value": "33259",
+"results": []
+},
+{
+"total": 161,
+"value": "33525",
+"results": []
+},
+{
+"total": 160,
+"value": "33357",
+"results": []
+},
+{
+"total": 160,
+"value": "33439",
+"results": []
+},
+{
+"total": 159,
+"value": "33218",
+"results": []
+},
+{
+"total": 158,
+"value": "33454",
+"results": []
+},
+{
+"total": 153,
+"value": "33339",
+"results": []
+},
+{
+"total": 151,
+"value": "33100",
+"results": []
+}
+]
+}
+},
+"/data-fair/api/v1/datasets/dpe03existant/values_agg?agg_size=200&code_departement_ban_eq=33&field=code_insee_ban;nom_commune_ban&size=0": {
+"status": 200,
+"json": {
+"total": 402145,
+"total_values": 535,
+"total_other": 17741,
+"aggs": [
+{
+"total": 113857,
+"value": "33063",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 113845,
+"value": "Bordeaux",
+"results": []
+},
+{
+"total": 12,
+"value": "BORDEAUX",
+"results": []
+}
+]
+},
+{
+"total": 20347,
+"value": "33522",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 20344,
+"value": "Talence",
+"results": []
+},
+{
+"total": 3,
+"value": "TALENCE",
+"results": []
+}
+]
+},
+{
+"total": 19830,
+"value": "33318",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 19829,
+"value": "Pessac",
+"results": []
+},
+{
+"total": 1,
+"value": "Bordeaux",
+"results": []
+}
+]
+},
+{
+"total": 19558,
+"value": "33281",
+"results": [],
+"total_values": 5,
+"total_other": 0,
+"aggs": [
+{
+"total": 19514,
+"value": "Mérignac",
+"results": []
+},
+{
+"total": 38,
+"value": "MÃ rignac",
+"results": []
+},
+{
+"total": 4,
+"value": "MERIGNAC",
+"results": []
+},
+{
+"total": 1,
+"value": "MÃ©rignac",
+"results": []
+},
+{
+"total": 1,
+"value": "arcachon",
+"results": []
+}
+]
+},
+{
+"total": 10871,
+"value": "33550",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 10870,
+"value": "Villenave-d'Ornon",
+"results": []
+},
+{
+"total": 1,
+"value": "VILLENAVE D ORNON",
+"results": []
+}
+]
+},
+{
+"total": 9336,
+"value": "33039",
+"results": [],
+"total_values": 3,
+"total_other": 0,
+"aggs": [
+{
+"total": 9315,
+"value": "Bègles",
+"results": []
+},
+{
+"total": 20,
+"value": "BÃ¨gles",
+"results": []
+},
+{
+"total": 1,
+"value": "BEGLES",
+"results": []
+}
+]
+},
+{
+"total": 8663,
+"value": "33119",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 8663,
+"value": "Cenon",
+"results": []
+}
+]
+},
+{
+"total": 8296,
+"value": "33249",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 8296,
+"value": "Lormont",
+"results": []
+}
+]
+},
+{
+"total": 7630,
+"value": "33243",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 7630,
+"value": "Libourne",
+"results": []
+}
+]
+},
+{
+"total": 6988,
+"value": "33529",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 6988,
+"value": "La Teste-de-Buch",
+"results": []
+}
+]
+},
+{
+"total": 6941,
+"value": "33192",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 6941,
+"value": "Gradignan",
+"results": []
+}
+]
+},
+{
+"total": 6424,
+"value": "33069",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 6419,
+"value": "Le Bouscat",
+"results": []
+},
+{
+"total": 5,
+"value": "LE BOUSCAT",
+"results": []
+}
+]
+},
+{
+"total": 6350,
+"value": "33162",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 6349,
+"value": "Eysines",
+"results": []
+},
+{
+"total": 1,
+"value": "BORDEAUX CAUDERAN",
+"results": []
+}
+]
+},
+{
+"total": 6061,
+"value": "33167",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 6061,
+"value": "Floirac",
+"results": []
+}
+]
+},
+{
+"total": 5579,
+"value": "33449",
+"results": [],
+"total_values": 5,
+"total_other": 0,
+"aggs": [
+{
+"total": 5563,
+"value": "Saint-Médard-en-Jalles",
+"results": []
+},
+{
+"total": 12,
+"value": "Saint-MÃ dard-en-Jalles",
+"results": []
+},
+{
+"total": 2,
+"value": "Saint-MÃ©dard-en-Jalles",
+"results": []
+},
+{
+"total": 1,
+"value": "SAINT MEDARD EN JALLES",
+"results": []
+},
+{
+"total": 1,
+"value": "ST MEDARD EN JALLES",
+"results": []
+}
+]
+},
+{
+"total": 5502,
+"value": "33009",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 5502,
+"value": "Arcachon",
+"results": []
+}
+]
+},
+{
+"total": 4899,
+"value": "33075",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 4899,
+"value": "Bruges",
+"results": []
+}
+]
+},
+{
+"total": 4397,
+"value": "33056",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 4397,
+"value": "Blanquefort",
+"results": []
+}
+]
+},
+{
+"total": 3938,
+"value": "33199",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 3938,
+"value": "Gujan-Mestras",
+"results": []
+}
+]
+},
+{
+"total": 3079,
+"value": "33003",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 3079,
+"value": "Ambarès-et-Lagrave",
+"results": []
+}
+]
+},
+{
+"total": 2872,
+"value": "33005",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 2872,
+"value": "Andernos-les-Bains",
+"results": []
+}
+]
+},
+{
+"total": 2832,
+"value": "33200",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 2832,
+"value": "Le Haillan",
+"results": []
+}
+]
+},
+{
+"total": 2543,
+"value": "33236",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 2507,
+"value": "Lège-Cap-Ferret",
+"results": []
+},
+{
+"total": 36,
+"value": "LÃ¨ge-Cap-Ferret",
+"results": []
+}
+]
+},
+{
+"total": 2493,
+"value": "33366",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 2493,
+"value": "Saint-André-de-Cubzac",
+"results": []
+}
+]
+},
+{
+"total": 2108,
+"value": "33122",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 2108,
+"value": "Cestas",
+"results": []
+}
+]
+},
+{
+"total": 2076,
+"value": "33214",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 2076,
+"value": "Lacanau",
+"results": []
+}
+]
+},
+{
+"total": 2054,
+"value": "33227",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 2054,
+"value": "Langon",
+"results": []
+}
+]
+},
+{
+"total": 1919,
+"value": "33032",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1919,
+"value": "Bassens",
+"results": []
+}
+]
+},
+{
+"total": 1838,
+"value": "33312",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 1837,
+"value": "Parempuyre",
+"results": []
+},
+{
+"total": 1,
+"value": "PAREMPUYRE",
+"results": []
+}
+]
+},
+{
+"total": 1761,
+"value": "33019",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1761,
+"value": "Audenge",
+"results": []
+}
+]
+},
+{
+"total": 1745,
+"value": "33138",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1745,
+"value": "Coutras",
+"results": []
+}
+]
+},
+{
+"total": 1669,
+"value": "33051",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 1667,
+"value": "Biganos",
+"results": []
+},
+{
+"total": 2,
+"value": "mios",
+"results": []
+}
+]
+},
+{
+"total": 1633,
+"value": "33096",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1633,
+"value": "Carbon-Blanc",
+"results": []
+}
+]
+},
+{
+"total": 1536,
+"value": "33519",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 1532,
+"value": "Le Taillan-Médoc",
+"results": []
+},
+{
+"total": 4,
+"value": "Le Taillan-MÃ doc",
+"results": []
+}
+]
+},
+{
+"total": 1502,
+"value": "33013",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1502,
+"value": "Artigues-près-Bordeaux",
+"results": []
+}
+]
+},
+{
+"total": 1490,
+"value": "33422",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1490,
+"value": "Saint-Jean-d'Illac",
+"results": []
+}
+]
+},
+{
+"total": 1458,
+"value": "33011",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 1456,
+"value": "Arès",
+"results": []
+},
+{
+"total": 2,
+"value": "ArÃ¨s",
+"results": []
+}
+]
+},
+{
+"total": 1422,
+"value": "33433",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 1421,
+"value": "Saint-Loubès",
+"results": []
+},
+{
+"total": 1,
+"value": "Saint-Loubes",
+"results": []
+}
+]
+},
+{
+"total": 1397,
+"value": "33058",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 1396,
+"value": "Blaye",
+"results": []
+},
+{
+"total": 1,
+"value": "BLAYE",
+"results": []
+}
+]
+},
+{
+"total": 1357,
+"value": "33527",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1357,
+"value": "Le Teich",
+"results": []
+}
+]
+},
+{
+"total": 1348,
+"value": "33229",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1348,
+"value": "Lanton",
+"results": []
+}
+]
+},
+{
+"total": 1264,
+"value": "33080",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1264,
+"value": "Cadaujac",
+"results": []
+}
+]
+},
+{
+"total": 1262,
+"value": "33352",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1262,
+"value": "La Réole",
+"results": []
+}
+]
+},
+{
+"total": 1241,
+"value": "33273",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 1240,
+"value": "Martignas-sur-Jalle",
+"results": []
+},
+{
+"total": 1,
+"value": "MARTIGNAS SUR JALLE",
+"results": []
+}
+]
+},
+{
+"total": 1224,
+"value": "33284",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 1223,
+"value": "Mios",
+"results": []
+},
+{
+"total": 1,
+"value": "lacanau de Mios",
+"results": []
+}
+]
+},
+{
+"total": 1223,
+"value": "33238",
+"results": [],
+"total_values": 3,
+"total_other": 0,
+"aggs": [
+{
+"total": 1220,
+"value": "Léognan",
+"results": []
+},
+{
+"total": 2,
+"value": "LÃ ognan",
+"results": []
+},
+{
+"total": 1,
+"value": "LEOGNAN",
+"results": []
+}
+]
+},
+{
+"total": 1177,
+"value": "33240",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1177,
+"value": "Lesparre-Médoc",
+"results": []
+}
+]
+},
+{
+"total": 1106,
+"value": "33036",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1106,
+"value": "Bazas",
+"results": []
+}
+]
+},
+{
+"total": 1088,
+"value": "33402",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1088,
+"value": "Sainte-Foy-la-Grande",
+"results": []
+}
+]
+},
+{
+"total": 1070,
+"value": "33090",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 1068,
+"value": "Canéjan",
+"results": []
+},
+{
+"total": 2,
+"value": "CanÃ jan",
+"results": []
+}
+]
+},
+{
+"total": 1030,
+"value": "33314",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 1030,
+"value": "Pauillac",
+"results": []
+}
+]
+},
+{
+"total": 1014,
+"value": "33514",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 1013,
+"value": "Soulac-sur-Mer",
+"results": []
+},
+{
+"total": 1,
+"value": "SOULAC-SUR-MER",
+"results": []
+}
+]
+},
+{
+"total": 984,
+"value": "33203",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 984,
+"value": "Hourtin",
+"results": []
+}
+]
+},
+{
+"total": 970,
+"value": "33140",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 962,
+"value": "Créon",
+"results": []
+},
+{
+"total": 8,
+"value": "CrÃ on",
+"results": []
+}
+]
+},
+{
+"total": 958,
+"value": "33108",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 958,
+"value": "Castillon-la-Bataille",
+"results": []
+}
+]
+},
+{
+"total": 949,
+"value": "33376",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 947,
+"value": "Saint-Aubin-de-Médoc",
+"results": []
+},
+{
+"total": 2,
+"value": "Saint-Aubin-de-MÃ doc",
+"results": []
+}
+]
+},
+{
+"total": 909,
+"value": "33498",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 909,
+"value": "Salles",
+"results": []
+}
+]
+},
+{
+"total": 874,
+"value": "33042",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 874,
+"value": "Belin-Béliet",
+"results": []
+}
+]
+},
+{
+"total": 872,
+"value": "33324",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 872,
+"value": "Pineuilh",
+"results": []
+}
+]
+},
+{
+"total": 756,
+"value": "33483",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 756,
+"value": "Saint-Sulpice-et-Cameyrac",
+"results": []
+}
+]
+},
+{
+"total": 748,
+"value": "33004",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 748,
+"value": "Ambès",
+"results": []
+}
+]
+},
+{
+"total": 728,
+"value": "33104",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 727,
+"value": "Castelnau-de-Médoc",
+"results": []
+},
+{
+"total": 1,
+"value": "Castelnau-de-MÃ doc",
+"results": []
+}
+]
+},
+{
+"total": 721,
+"value": "33165",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 721,
+"value": "Fargues-Saint-Hilaire",
+"results": []
+}
+]
+},
+{
+"total": 717,
+"value": "33478",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 717,
+"value": "Saint-Seurin-sur-l'Isle",
+"results": []
+}
+]
+},
+{
+"total": 693,
+"value": "33207",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 693,
+"value": "Izon",
+"results": []
+}
+]
+},
+{
+"total": 693,
+"value": "33555",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 693,
+"value": "Marcheprime",
+"results": []
+}
+]
+},
+{
+"total": 692,
+"value": "33322",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 691,
+"value": "Le Pian-Médoc",
+"results": []
+},
+{
+"total": 1,
+"value": "Le Pian-MÃ doc",
+"results": []
+}
+]
+},
+{
+"total": 676,
+"value": "33397",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 676,
+"value": "Sainte-Eulalie",
+"results": []
+}
+]
+},
+{
+"total": 671,
+"value": "33097",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 671,
+"value": "Carcans",
+"results": []
+}
+]
+},
+{
+"total": 667,
+"value": "33029",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 667,
+"value": "Le Barp",
+"results": []
+}
+]
+},
+{
+"total": 661,
+"value": "33393",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 660,
+"value": "Saint-Denis-de-Pile",
+"results": []
+},
+{
+"total": 1,
+"value": "SAINT-DENIS-DE-PILE",
+"results": []
+}
+]
+},
+{
+"total": 622,
+"value": "33099",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 621,
+"value": "Carignan-de-Bordeaux",
+"results": []
+},
+{
+"total": 1,
+"value": "CARIGNAN DE BORDEAUX",
+"results": []
+}
+]
+},
+{
+"total": 608,
+"value": "33539",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 608,
+"value": "Vayres",
+"results": []
+}
+]
+},
+{
+"total": 604,
+"value": "33234",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 604,
+"value": "Latresne",
+"results": []
+}
+]
+},
+{
+"total": 585,
+"value": "33424",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 584,
+"value": "Saint-Laurent-Médoc",
+"results": []
+},
+{
+"total": 1,
+"value": "Saint Laurent Médoc",
+"results": []
+}
+]
+},
+{
+"total": 575,
+"value": "33213",
+"results": [],
+"total_values": 3,
+"total_other": 0,
+"aggs": [
+{
+"total": 573,
+"value": "La Brède",
+"results": []
+},
+{
+"total": 1,
+"value": "La BrÃ¨de",
+"results": []
+},
+{
+"total": 1,
+"value": "LaBrède",
+"results": []
+}
+]
+},
+{
+"total": 570,
+"value": "33256",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 570,
+"value": "Ludon-Médoc",
+"results": []
+}
+]
+},
+{
+"total": 566,
+"value": "33081",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 387,
+"value": "Cadillac-sur-Garonne",
+"results": []
+},
+{
+"total": 179,
+"value": "Cadillac",
+"results": []
+}
+]
+},
+{
+"total": 541,
+"value": "33262",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 541,
+"value": "Macau",
+"results": []
+}
+]
+},
+{
+"total": 521,
+"value": "33473",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 521,
+"value": "Saint-Savin",
+"results": []
+}
+]
+},
+{
+"total": 516,
+"value": "33540",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 516,
+"value": "Vendays-Montalivet",
+"results": []
+}
+]
+},
+{
+"total": 507,
+"value": "33363",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 507,
+"value": "Sadirac",
+"results": []
+}
+]
+},
+{
+"total": 505,
+"value": "33268",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 504,
+"value": "Margaux-Cantenac",
+"results": []
+},
+{
+"total": 1,
+"value": "Margaux",
+"results": []
+}
+]
+},
+{
+"total": 504,
+"value": "33544",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 504,
+"value": "Le Verdon-sur-Mer",
+"results": []
+}
+]
+},
+{
+"total": 500,
+"value": "33293",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 500,
+"value": "Montussan",
+"results": []
+}
+]
+},
+{
+"total": 500,
+"value": "33389",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 500,
+"value": "Saint-Ciers-sur-Gironde",
+"results": []
+}
+]
+},
+{
+"total": 493,
+"value": "33327",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 492,
+"value": "Podensac",
+"results": []
+},
+{
+"total": 1,
+"value": "Cerons",
+"results": []
+}
+]
+},
+{
+"total": 488,
+"value": "33535",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 488,
+"value": "Tresses",
+"results": []
+}
+]
+},
+{
+"total": 483,
+"value": "33447",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 483,
+"value": "Saint-Médard-de-Guizières",
+"results": []
+}
+]
+},
+{
+"total": 482,
+"value": "33067",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 482,
+"value": "Bourg",
+"results": []
+}
+]
+},
+{
+"total": 468,
+"value": "33466",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 468,
+"value": "Saint-Quentin-de-Baron",
+"results": []
+}
+]
+},
+{
+"total": 466,
+"value": "33179",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 466,
+"value": "Galgon",
+"results": []
+}
+]
+},
+{
+"total": 452,
+"value": "33018",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 451,
+"value": "Val de Virvée",
+"results": []
+},
+{
+"total": 1,
+"value": "Val de VirvÃ e",
+"results": []
+}
+]
+},
+{
+"total": 437,
+"value": "33085",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 437,
+"value": "Camblanes-et-Meynac",
+"results": []
+}
+]
+},
+{
+"total": 436,
+"value": "33330",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 436,
+"value": "Pompignac",
+"results": []
+}
+]
+},
+{
+"total": 425,
+"value": "33114",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 425,
+"value": "Cavignac",
+"results": []
+}
+]
+},
+{
+"total": 420,
+"value": "33533",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 420,
+"value": "Toulenne",
+"results": []
+}
+]
+},
+{
+"total": 412,
+"value": "33333",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 412,
+"value": "Le Porge",
+"results": []
+}
+]
+},
+{
+"total": 410,
+"value": "33143",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 410,
+"value": "Cubzac-les-Ponts",
+"results": []
+}
+]
+},
+{
+"total": 404,
+"value": "33065",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 404,
+"value": "Bouliac",
+"results": []
+}
+]
+},
+{
+"total": 403,
+"value": "33554",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 403,
+"value": "Yvrac",
+"results": []
+}
+]
+},
+{
+"total": 395,
+"value": "33198",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 394,
+"value": "Guîtres",
+"results": []
+},
+{
+"total": 1,
+"value": "GUITRES",
+"results": []
+}
+]
+},
+{
+"total": 391,
+"value": "33381",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 391,
+"value": "Saint-Caprais-de-Bordeaux",
+"results": []
+}
+]
+},
+{
+"total": 391,
+"value": "33506",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 391,
+"value": "Sauveterre-de-Guyenne",
+"results": []
+}
+]
+},
+{
+"total": 382,
+"value": "33159",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 379,
+"value": "Étauliers",
+"results": []
+},
+{
+"total": 3,
+"value": "Etauliers",
+"results": []
+}
+]
+},
+{
+"total": 373,
+"value": "33193",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 373,
+"value": "Grayan-et-l'Hôpital",
+"results": []
+}
+]
+},
+{
+"total": 372,
+"value": "33226",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 372,
+"value": "Langoiran",
+"results": []
+}
+]
+},
+{
+"total": 371,
+"value": "33248",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 371,
+"value": "Listrac-Médoc",
+"results": []
+}
+]
+},
+{
+"total": 368,
+"value": "33448",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 368,
+"value": "Saint-Médard-d'Eyrans",
+"results": []
+}
+]
+},
+{
+"total": 357,
+"value": "33274",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 357,
+"value": "Martillac",
+"results": []
+}
+]
+},
+{
+"total": 349,
+"value": "33492",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 349,
+"value": "Saint-Yzan-de-Soudiac",
+"results": []
+}
+]
+},
+{
+"total": 347,
+"value": "33334",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 347,
+"value": "Portets",
+"results": []
+}
+]
+},
+{
+"total": 339,
+"value": "33337",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 339,
+"value": "Preignac",
+"results": []
+}
+]
+},
+{
+"total": 335,
+"value": "33496",
+"results": [],
+"total_values": 6,
+"total_other": 0,
+"aggs": [
+{
+"total": 147,
+"value": "Salleb uf",
+"results": []
+},
+{
+"total": 104,
+"value": "Sallebœuf",
+"results": []
+},
+{
+"total": 71,
+"value": "SallebÅ uf",
+"results": []
+},
+{
+"total": 11,
+"value": "SallebÅ“uf",
+"results": []
+},
+{
+"total": 1,
+"value": "Salleboeuf",
+"results": []
+},
+{
+"total": 1,
+"value": "SallebÅuf",
+"results": []
+}
+]
+},
+{
+"total": 333,
+"value": "33001",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 333,
+"value": "Abzac",
+"results": []
+}
+]
+},
+{
+"total": 322,
+"value": "33435",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 321,
+"value": "Saint-Macaire",
+"results": []
+},
+{
+"total": 1,
+"value": "SAINT PIERRE D'AURILLAC",
+"results": []
+}
+]
+},
+{
+"total": 320,
+"value": "33012",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 320,
+"value": "Arsac",
+"results": []
+}
+]
+},
+{
+"total": 319,
+"value": "33434",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 319,
+"value": "Saint-Louis-de-Montferrand",
+"results": []
+}
+]
+},
+{
+"total": 319,
+"value": "33490",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 319,
+"value": "Saint-Vivien-de-Médoc",
+"results": []
+}
+]
+},
+{
+"total": 316,
+"value": "33123",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 316,
+"value": "Cézac",
+"results": []
+}
+]
+},
+{
+"total": 304,
+"value": "33225",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 304,
+"value": "Landiras",
+"results": []
+}
+]
+},
+{
+"total": 299,
+"value": "33154",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 296,
+"value": "Les Églisottes-et-Chalaures",
+"results": []
+},
+{
+"total": 3,
+"value": "Les Eglisottes-et-Chalaures",
+"results": []
+}
+]
+},
+{
+"total": 297,
+"value": "33177",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 297,
+"value": "Gaillan-en-Médoc",
+"results": []
+}
+]
+},
+{
+"total": 293,
+"value": "33030",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 293,
+"value": "Barsac",
+"results": []
+}
+]
+},
+{
+"total": 288,
+"value": "33109",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 288,
+"value": "Castres-Gironde",
+"results": []
+}
+]
+},
+{
+"total": 286,
+"value": "33015",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 286,
+"value": "Arveyres",
+"results": []
+}
+]
+},
+{
+"total": 285,
+"value": "33349",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 285,
+"value": "Quinsac",
+"results": []
+}
+]
+},
+{
+"total": 277,
+"value": "33341",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 277,
+"value": "Pugnac",
+"results": []
+}
+]
+},
+{
+"total": 277,
+"value": "33394",
+"results": [],
+"total_values": 3,
+"total_other": 0,
+"aggs": [
+{
+"total": 274,
+"value": "Saint-Émilion",
+"results": []
+},
+{
+"total": 2,
+"value": "Saint-Emilion",
+"results": []
+},
+{
+"total": 1,
+"value": "Saint-Ã milion",
+"results": []
+}
+]
+},
+{
+"total": 276,
+"value": "33233",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 276,
+"value": "Laruscade",
+"results": []
+}
+]
+},
+{
+"total": 265,
+"value": "33474",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 265,
+"value": "Saint-Selve",
+"results": []
+}
+]
+},
+{
+"total": 264,
+"value": "33438",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 264,
+"value": "Saint-Maixant",
+"results": []
+}
+]
+},
+{
+"total": 263,
+"value": "33022",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 263,
+"value": "Avensan",
+"results": []
+}
+]
+},
+{
+"total": 261,
+"value": "33501",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 261,
+"value": "Saucats",
+"results": []
+}
+]
+},
+{
+"total": 259,
+"value": "33219",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 259,
+"value": "La Lande-de-Fronsac",
+"results": []
+}
+]
+},
+{
+"total": 253,
+"value": "33071",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 253,
+"value": "Branne",
+"results": []
+}
+]
+},
+{
+"total": 253,
+"value": "33415",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 253,
+"value": "Saint-Gervais",
+"results": []
+}
+]
+},
+{
+"total": 250,
+"value": "33185",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 250,
+"value": "Génissac",
+"results": []
+}
+]
+},
+{
+"total": 249,
+"value": "33106",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 249,
+"value": "Castets et Castillon",
+"results": []
+}
+]
+},
+{
+"total": 249,
+"value": "33120",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 249,
+"value": "Cérons",
+"results": []
+}
+]
+},
+{
+"total": 247,
+"value": "33413",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 247,
+"value": "Saint-Germain-du-Puch",
+"results": []
+}
+]
+},
+{
+"total": 246,
+"value": "33417",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 246,
+"value": "Sainte-Hélène",
+"results": []
+}
+]
+},
+{
+"total": 244,
+"value": "33125",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 244,
+"value": "Cissac-Médoc",
+"results": []
+}
+]
+},
+{
+"total": 243,
+"value": "33437",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 243,
+"value": "Saint-Magne-de-Castillon",
+"results": []
+}
+]
+},
+{
+"total": 241,
+"value": "33187",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 241,
+"value": "Gironde-sur-Dropt",
+"results": []
+}
+]
+},
+{
+"total": 240,
+"value": "33484",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 240,
+"value": "Saint-Symphorien",
+"results": []
+}
+]
+},
+{
+"total": 239,
+"value": "33084",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 239,
+"value": "Cambes",
+"results": []
+}
+]
+},
+{
+"total": 238,
+"value": "33523",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 238,
+"value": "Targon",
+"results": []
+}
+]
+},
+{
+"total": 237,
+"value": "33395",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 236,
+"value": "Saint-Estèphe",
+"results": []
+},
+{
+"total": 1,
+"value": "Saint-EstÃ¨phe",
+"results": []
+}
+]
+},
+{
+"total": 236,
+"value": "33077",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 236,
+"value": "Cabanac-et-Villagrains",
+"results": []
+}
+]
+},
+{
+"total": 232,
+"value": "33289",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 232,
+"value": "Monségur",
+"results": []
+}
+]
+},
+{
+"total": 232,
+"value": "33297",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 231,
+"value": "Moulis-en-Médoc",
+"results": []
+},
+{
+"total": 1,
+"value": "Moulis-en-MÃ doc",
+"results": []
+}
+]
+},
+{
+"total": 229,
+"value": "33195",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 229,
+"value": "Grignols",
+"results": []
+}
+]
+},
+{
+"total": 228,
+"value": "33073",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 228,
+"value": "Braud-et-Saint-Louis",
+"results": []
+}
+]
+},
+{
+"total": 223,
+"value": "33441",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 223,
+"value": "Saint-Martin-Lacaussade",
+"results": []
+}
+]
+},
+{
+"total": 222,
+"value": "33118",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 221,
+"value": "Cénac",
+"results": []
+},
+{
+"total": 1,
+"value": "CÃ nac",
+"results": []
+}
+]
+},
+{
+"total": 222,
+"value": "33355",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 222,
+"value": "Rions",
+"results": []
+}
+]
+},
+{
+"total": 219,
+"value": "33040",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 219,
+"value": "Béguey",
+"results": []
+}
+]
+},
+{
+"total": 218,
+"value": "33382",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 218,
+"value": "Saint-Christoly-de-Blaye",
+"results": []
+}
+]
+},
+{
+"total": 217,
+"value": "33049",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 217,
+"value": "Beychac-et-Caillau",
+"results": []
+}
+]
+},
+{
+"total": 216,
+"value": "33037",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 216,
+"value": "Beautiran",
+"results": []
+}
+]
+},
+{
+"total": 216,
+"value": "33485",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 216,
+"value": "Sainte-Terre",
+"results": []
+}
+]
+},
+{
+"total": 214,
+"value": "33095",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 214,
+"value": "Captieux",
+"results": []
+}
+]
+},
+{
+"total": 213,
+"value": "33146",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 213,
+"value": "Cussac-Fort-Médoc",
+"results": []
+}
+]
+},
+{
+"total": 211,
+"value": "33315",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 211,
+"value": "Les Peintures",
+"results": []
+}
+]
+},
+{
+"total": 210,
+"value": "33164",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 210,
+"value": "Fargues",
+"results": []
+}
+]
+},
+{
+"total": 210,
+"value": "33543",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 210,
+"value": "Verdelais",
+"results": []
+}
+]
+},
+{
+"total": 209,
+"value": "33307",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 209,
+"value": "Noaillan",
+"results": []
+}
+]
+},
+{
+"total": 208,
+"value": "33111",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 208,
+"value": "Caudrot",
+"results": []
+}
+]
+},
+{
+"total": 208,
+"value": "33380",
+"results": [],
+"total_values": 2,
+"total_other": 0,
+"aggs": [
+{
+"total": 206,
+"value": "Val-de-Livenne",
+"results": []
+},
+{
+"total": 2,
+"value": "VAL DE LIVENNE",
+"results": []
+}
+]
+},
+{
+"total": 206,
+"value": "33480",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 206,
+"value": "Saint-Sulpice-de-Faleyrens",
+"results": []
+}
+]
+},
+{
+"total": 205,
+"value": "33052",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 205,
+"value": "Les Billaux",
+"results": []
+}
+]
+},
+{
+"total": 201,
+"value": "33047",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 201,
+"value": "Berson",
+"results": []
+}
+]
+},
+{
+"total": 201,
+"value": "33174",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 201,
+"value": "Fronsac",
+"results": []
+}
+]
+},
+{
+"total": 201,
+"value": "33505",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 201,
+"value": "La Sauve",
+"results": []
+}
+]
+},
+{
+"total": 197,
+"value": "33351",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 197,
+"value": "Reignac",
+"results": []
+}
+]
+},
+{
+"total": 196,
+"value": "33477",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 196,
+"value": "Saint-Seurin-de-Cursac",
+"results": []
+}
+]
+},
+{
+"total": 196,
+"value": "33547",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 196,
+"value": "Villandraut",
+"results": []
+}
+]
+},
+{
+"total": 190,
+"value": "33220",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 190,
+"value": "Lamarque",
+"results": []
+}
+]
+},
+{
+"total": 186,
+"value": "33261",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 186,
+"value": "Lussac",
+"results": []
+}
+]
+},
+{
+"total": 186,
+"value": "33321",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 186,
+"value": "Peujard",
+"results": []
+}
+]
+},
+{
+"total": 184,
+"value": "33202",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 184,
+"value": "Hostens",
+"results": []
+}
+]
+},
+{
+"total": 183,
+"value": "33517",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 183,
+"value": "Soussans",
+"results": []
+}
+]
+},
+{
+"total": 182,
+"value": "33350",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 182,
+"value": "Rauzan",
+"results": []
+}
+]
+},
+{
+"total": 182,
+"value": "33487",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 182,
+"value": "Saint-Vincent-de-Paul",
+"results": []
+}
+]
+},
+{
+"total": 174,
+"value": "33311",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 174,
+"value": "Paillet",
+"results": []
+}
+]
+},
+{
+"total": 174,
+"value": "33548",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 174,
+"value": "Villegouge",
+"results": []
+}
+]
+},
+{
+"total": 172,
+"value": "33348",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 172,
+"value": "Queyrac",
+"results": []
+}
+]
+},
+{
+"total": 170,
+"value": "33046",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 170,
+"value": "Bernos-Beaulac",
+"results": []
+}
+]
+},
+{
+"total": 169,
+"value": "33425",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 169,
+"value": "Saint-Laurent-d'Arce",
+"results": []
+}
+]
+},
+{
+"total": 169,
+"value": "33541",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 169,
+"value": "Vensac",
+"results": []
+}
+]
+},
+{
+"total": 162,
+"value": "33463",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 162,
+"value": "Saint-Pierre-d'Aurillac",
+"results": []
+}
+]
+},
+{
+"total": 161,
+"value": "33259",
+"results": [],
+"total_values": 5,
+"total_other": 0,
+"aggs": [
+{
+"total": 93,
+"value": "Lugon-et-l'Île-du-Carnay",
+"results": []
+},
+{
+"total": 55,
+"value": "Lugon-et-l'Ã le-du-Carnay",
+"results": []
+},
+{
+"total": 11,
+"value": "Lugon-et-l'ÃŽle-du-Carnay",
+"results": []
+},
+{
+"total": 1,
+"value": "Lugon-et-l'*u00cele-du-Carnay",
+"results": []
+},
+{
+"total": 1,
+"value": "Lugon-et-l'Ãle-du-Carnay",
+"results": []
+}
+]
+},
+{
+"total": 161,
+"value": "33525",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 161,
+"value": "Tauriac",
+"results": []
+}
+]
+},
+{
+"total": 160,
+"value": "33357",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 160,
+"value": "Roaillan",
+"results": []
+}
+]
+},
+{
+"total": 160,
+"value": "33439",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 160,
+"value": "Saint-Mariens",
+"results": []
+}
+]
+},
+{
+"total": 159,
+"value": "33218",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 159,
+"value": "Lagorce",
+"results": []
+}
+]
+},
+{
+"total": 158,
+"value": "33454",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 158,
+"value": "Saint-Morillon",
+"results": []
+}
+]
+},
+{
+"total": 153,
+"value": "33339",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 153,
+"value": "Prignac-et-Marcamps",
+"results": []
+}
+]
+},
+{
+"total": 151,
+"value": "33100",
+"results": [],
+"total_values": 1,
+"total_other": 0,
+"aggs": [
+{
+"total": 151,
+"value": "Cars",
+"results": []
+}
+]
+}
+]
+}
+}
+}
